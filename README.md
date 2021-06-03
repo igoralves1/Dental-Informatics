@@ -95,10 +95,9 @@ This section should list any major frameworks that you built your project using.
 * [AWS - Systems Manager (ssm)](https://console.aws.amazon.com/systems-manager/parameters/?region=us-east-1&tab=Table)
 
 ### Serverless - Plugins
-In order to install all required `Serverless-Plugins` and `NodeJS-Modules` after clone from `Scican-Ltd
-/
-myscican_dashboard_api_gateway
-`GitHub run:
+In order to install all required `Serverless-Plugins` and `NodeJS-Modules` after clone from `xxx`.
+
+GitHub run:
 ```
 npm install
 ```
@@ -135,8 +134,8 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 
 ### Architecture
-[![Web App Architecture][app-architecture]](https://github.com/Scican-Ltd/restful_mqtt_api_yaml)
-* [restful_mqtt_api_documentation](https://github.com/Scican-Ltd/restful_mqtt_api_documentation)
+[![Web App Architecture][app-architecture]](https://github.com/igoralves1/Dental-Informatics)
+* [restful_mqtt_api_documentation](https://github.com/igoralves1/Dental-Informatics)
 * [Ec2 - Web App Host](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#InstanceDetails:instanceId=i-092d8bedec5ab75f3)
 * [S3 - authentication-keys-ec2-legacy](https://s3.console.aws.amazon.com/s3/buckets/authentication-keys-ec2-legacy?region=us-east-1&tab=objects)
 
@@ -185,10 +184,10 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/Scican-Ltd/restful_mqtt_api_yaml/graphs/contributors
+[contributors-url]: https://github.com/igoralves1/Dental-Informatics/graphs/contributors
 
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/Scican-Ltd/restful_mqtt_api_yaml/issues
+[issues-url]: https://github.com/igoralves1/Dental-Informatics/issues
 
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
