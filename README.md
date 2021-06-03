@@ -11,23 +11,23 @@
     <img src="https://agd.org/images/default-source/default-album/dentalinformatics.jpg?sfvrsn=e46f5c9f_0" alt="Logo">
   </a>
 
-  <h3 align="center">Dental Informatics | SERVERLESS Repo</h3>
+  <h3 align="center">Health Informatics | Dental Informatics</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    This project intends to be a central repository to be used by health professionals in general and  dentists in particular (students, teachers and professionals)
     <br />
-    <a href="https://github.com/Scican-Ltd/restful_mqtt_api_yaml"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/igoralves1/Dental-Informatics"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="http://18.208.186.68/login">View Project</a>
+    <a href="https://github.com/igoralves1/Dental-Informatics">View Project</a>
     ·
-    <a href="">API Documentation</a>
+    <a href="#">API Documentation</a>
     ·
-    <a href="https://github.com/Scican-Ltd/myscican_dashboard_api_gateway/issues">Report Bug</a>
+    <a href="https://github.com/igoralves1/Dental-Informatics/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Scican-Ltd/myscican_dashboard_api_gateway/issues">Request Feature</a>
+    <a href="https://github.com/igoralves1/Dental-Informatics/issues">Request Feature</a>
     ·
-    <a href="https://scican.atlassian.net/browse/MS-122">JIRA Ticket</a>
+    <a href="#">JIRA Ticket</a>
   </p>
 </p>
 
@@ -108,10 +108,9 @@ That will install the following plugins:
 * [serverless-domain-manager](https://github.com/amplify-education/serverless-domain-manager)
 
 ### Node.Js - Modules
-In order to install all required `Serverless-Plugins` and `NodeJS-Modules` after clone from `Scican-Ltd
-/
-myscican_dashboard_api_gateway
-`GitHub run:
+In order to install all required `Serverless-Plugins` and `NodeJS-Modules` after clone from `xxx`.
+
+GitHub run:
 
 ```
 npm install
