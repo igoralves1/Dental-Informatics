@@ -34,6 +34,8 @@
 
 <p>*************************</p>
 
+[![Web App Architecture][app-architecture]](https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/work_in_progress_o.png)
+
 <!-- ABOUT THE PROJECT -->
 ## About the Dental Informatics Project
 
