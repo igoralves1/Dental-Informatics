@@ -134,7 +134,7 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 
 ### Architecture
-[![Web App Architecture][app-architecture]](https://github.com/igoralves1/Dental-Informatics)
+[![Web App Architecture][app-architecture]](https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/work_in_progress_o.png)
 * [restful_mqtt_api_documentation](https://github.com/igoralves1/Dental-Informatics)
 * [Ec2 - Web App Host](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#InstanceDetails:instanceId=i-092d8bedec5ab75f3)
 * [S3 - authentication-keys-ec2-legacy](https://s3.console.aws.amazon.com/s3/buckets/authentication-keys-ec2-legacy?region=us-east-1&tab=objects)
@@ -196,7 +196,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 [linkedin-url]: https://www.linkedin.com/company/coltene-whaledent/
 
 [product-screenshot]: docs/img/screenshot.png
-[app-architecture]: docs/img/architecture.png
+[app-architecture]: imgs/work_in_progress_o.png
 
 
 The backend API for the UI-App
