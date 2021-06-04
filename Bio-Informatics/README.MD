@@ -1,7 +1,11 @@
 # Bioinformatics
 []()
-[]()
+
+[Bioinformatics Project](https://www.youtube.com/watch?v=plVLRashaA8&list=PLtqF5YXg7GLlQJUv9XJ3RWdd5VYGwBHrP)
+
 [Python for Bioinformatics - Drug Discovery Using Machine Learning and Data Analysis](https://www.youtube.com/watch?v=jBlTQjcKuaY)
+
+
 [Pipelines](https://www.medschool.lsuhsc.edu/bioinformatics/pipelines.aspx)
 
 [What-are-pipelines-in-Bioinformatics](https://www.quora.com/What-are-pipelines-in-Bioinformatics)
