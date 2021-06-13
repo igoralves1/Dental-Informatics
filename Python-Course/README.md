@@ -4,7 +4,7 @@
 1. [Using the Python or Operator](https://realpython.com/courses/using-python-or-operator/)
 2. [Stacks and Queues: Selecting the Ideal Data Structure](https://realpython.com/courses/stacks-queues-ideal-data-structure/)
 
-
+[Data Analysis with Python](https://www.youtube.com/watch?v=GPVsHOlRBBI)
 
 ## Natural Language Processing
 [Natural Language Processing With Python's NLTK Package](https://realpython.com/nltk-nlp-python/)
@@ -14,3 +14,13 @@
 
 [prnewswire](https://www.prnewswire.com/news-releases/in-a-dental-industry-first-overjets-dental-assist-receives-fda-clearance-to-bring-ai-to-the-dental-practice-301295927.html)
 [itlink](https://itlink.fr/)
+
+[BI Analytics - Boosted](https://www.atoti.io/https://www.atoti.io/)
+
+[Mathematics for computer vision](https://www.coursera.org/learn/mathematics-for-computer-vision?specialization=basics-in-computer-vision#syllabus)
+[Master of Computer Vision](https://www.coursera.org/degrees/ms-computer-vision-hse/academics)
+[Basics in computer vision](https://www.coursera.org/specializations/basics-in-computer-vision)
+[]()
+[]()
+[]()
+[]()

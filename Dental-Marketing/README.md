@@ -41,3 +41,7 @@ https://www.dentistrytoday.com/news/ai-in-dentistry/item/7746-ask-the-expert-ser
 [dental-cibao-spa](https://www.dentalcibao.com/dental-cibao-spa/)
 
 mongo --username root --password pay23*3TM0r34Nothin$ --authenticationDatabase admin
+
+[Dental Implant Marketing Testimonial - New Practice Owner Dr. Young Made $58K In 30 Days](https://www.youtube.com/watch?v=tW3EDynuAN8)
+
+[buzzsumo](https://app.buzzsumo.com/upgrade/facebook?redirect_to=facebookContent)

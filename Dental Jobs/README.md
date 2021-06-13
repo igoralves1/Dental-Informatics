@@ -16,15 +16,15 @@ We believe in supporting our employees through a multitude of fantastic benefits
 Competitive pay with bonus opportunities
 Excellent insurance package including fully paid dental, short term disability, long term disability, and life insurance
 Education assistance
-401(k) matching and profit sharing plan.  
+401(k) matching and profit sharing plan.
 
 >Job Summary: To collect, ***analyze*** and ***prepare conclusions*** and ***recommendations*** for internal and external customers on business and ***financial projects***. The position is responsible for ***conducting detailed business decision support studies***. The position will present both oral and written information to customers and internal staff, inclusive of executive leadership.
 
- 
+
 
 The incumbent will be expected to work closely with other technology staff to ***develop automated solutions*** for a ***reporting and analytical platform***. The position will also be individually responsible for special projects and ad-hoc reporting.
 
- 
+
 
 Primary Job Responsibilities:
 
@@ -69,3 +69,5 @@ AND
 5) Two years of experience in public speaking.
 
 6) At least 3 hours of college level statistics or equivalent experience.
+
+

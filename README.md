@@ -296,3 +296,11 @@ The American Medical Informatics Association has reviewed this profile.
 3. [a4ai](https://a4ai.org/meaningful-connectivity/)
 
 
+
+sudo adduser coltene-admin-prod --disabled-password
+sudo su - coltene-admin-prod
+ssh-keygen -y -f coltene-admin-prod
+chmod 400 new-user.pem
+
+
+ssh -i "coltene-admin-prod.pem" coltene-admin-prod@ec2-54-242-99-115.compute-1.amazonaws.com

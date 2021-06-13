@@ -1,5 +1,22 @@
 # Bioinformatics
 []()
+[]()
+[]()
+[]()
+[]()
+[Introduction To Bioinformatics And Summary For Beginners
+](https://www.youtube.com/watch?v=28lMfTQTFas)
+
+[Five steps for getting started with bioinformatics](https://www.youtube.com/watch?v=52Q0MYWbHCs)
+
+[What is bioinformatics?](https://www.youtube.com/watch?v=MuZAsIJ7gSQ)
+
+[Chrome DevTools - Crash Course
+](https://www.youtube.com/watch?v=gTVpBbFWry8)
+
+[Sequence Analysis](https://www.youtube.com/playlist?list=PLC1MmyFRfbyh2Slycj56A3-7GROrkBqMR)
+
+[Bioinformatics in Python: Intro](https://www.youtube.com/watch?v=3joOQ3A3KBQ)
 
 [Bioinformatics Project](https://www.youtube.com/watch?v=plVLRashaA8&list=PLtqF5YXg7GLlQJUv9XJ3RWdd5VYGwBHrP)
 

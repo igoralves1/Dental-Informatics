@@ -38,7 +38,7 @@ Public Health	7	0
 Perspectives of AHIMA	7	3
 Technological Forecasting & Social Change	7	2
 Educational Perspectives of AHIMA	6	2
- 
+
 Survey Responses, ordered based on percentage of people who have published in it.
 ADD TO BASKET (%)	HAVE PUBLISHED IN IT (%)
 International Journal of Medical Informatics (IJMI)	72	31
@@ -80,3 +80,6 @@ Some notes for transparency:
 
 A total of 61 people completed the survey. Not everyone completed every journal evaluation. The percentages are calculated as the #yes/#submitted for that journal. For some journals, 61 people voted yes/no for other journals there were fewer people. There were at least 44 votes for any journal.
 Health Systems appeared twice in the list. The two numbers were averaged. The difference was about 5% points and averaging the two numbers didn’t affect the order. In other words, the average, or the top or the bottom number would have resulted in the same ranking.
+
+
+[Leveraging artificial intelligence for pandemic preparedness and response: a scoping review to identify key use cases](https://www.nature.com/articles/s41746-021-00459-8)

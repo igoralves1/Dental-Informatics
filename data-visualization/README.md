@@ -1,6 +1,12 @@
 # Data Visualization
 
+[A Map of the Online World in Incredible Detail](https://www.visualcapitalist.com/the-online-world-mapped-2021/)
 
+[The Dark Side of the Internet](https://www.visualcapitalist.com/dark-web/)
+
+[visualcapitalist](https://www.visualcapitalist.com/ranking-the-countries-with-the-largest-proven-global-oil-reserves-in-the-world/)
+
+[mckinsey](https://covid-tracker.mckinsey.com/vulnerable-jobs/geography/US)
 
 [visualcapitalist](https://www.visualcapitalist.com/top-10-strongest-nation-brands/)
 
