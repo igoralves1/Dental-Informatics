@@ -20,7 +20,7 @@
 [Mathematics for computer vision](https://www.coursera.org/learn/mathematics-for-computer-vision?specialization=basics-in-computer-vision#syllabus)
 [Master of Computer Vision](https://www.coursera.org/degrees/ms-computer-vision-hse/academics)
 [Basics in computer vision](https://www.coursera.org/specializations/basics-in-computer-vision)
-[]()
+[A friendly introduction to linear algebra for ML](https://www.youtube.com/watch?v=LlKAna21fLE)
 []()
 []()
 []()
