@@ -45,3 +45,9 @@ mongo --username root --password pay23*3TM0r34Nothin$ --authenticationDatabase a
 [Dental Implant Marketing Testimonial - New Practice Owner Dr. Young Made $58K In 30 Days](https://www.youtube.com/watch?v=tW3EDynuAN8)
 
 [buzzsumo](https://app.buzzsumo.com/upgrade/facebook?redirect_to=facebookContent)
+[Want More Patients? Market Your Practice To Small Businesses](https://www.linkedin.com/in/kim-larson-031084b6/detail/recent-activity/posts/)
+[]()
+[]()
+[]()
+[]()
+[]()
