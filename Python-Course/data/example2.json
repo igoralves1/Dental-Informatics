@@ -1,0 +1,19 @@
+{
+    "first name":"John",
+    "last name":"Appleseed",
+    "age":30, 
+    "house" : { 
+            "address":{
+                "house no":22,
+                "street":"College Ave East",
+                "city":"Singapore",
+            },
+            "owner":"John Appleseed"
+            "market price($)":5000.00
+    },
+    "friends":[
+        "Charles",
+        "Mark",
+        "Darren"
+     ]
+}
