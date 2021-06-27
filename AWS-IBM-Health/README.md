@@ -80,3 +80,9 @@
     <img src="https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/IBM-watson.png" alt="IBM-watson">
   </a>
 </p>
+
+### [Watson Health Case Studies](https://www.ibm.com/watson-health)
+>Watson Health is helping clients across the health industry
+1. [TriHealth](https://www.ibm.com/case-studies/trihealth-watson-health-iconnect/)
+2. [TidalHealth Peninsula Regional](https://www.ibm.com/case-studies/tidalhealth-peninsula-regional/)
+3. [NYC Department of Social Services](https://www.ibm.com/case-studies/b025674t19569b75)
