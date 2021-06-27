@@ -1,5 +1,5 @@
 <h1 align="center">AWS - Healthcare & Life Sciences</h1>
-<h2 align="center">Health Computing in a powerful cloud</h2>
+<h2 align="center">Healthcare & Life Sciences Cloud Solutions</h2>
 
 <p align="center">
   <a href="">
