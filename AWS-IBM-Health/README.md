@@ -1,3 +1,6 @@
+<h1 align="center">AWS - Healthcare & Life Sciences</h1>
+<h2 align="center">Health Computing in a powerful cloud</h2>
+
 <p align="center">
   <a href="">
     <img src="https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/aws_health.png" alt="aws_health">
