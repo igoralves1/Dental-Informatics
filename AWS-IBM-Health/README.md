@@ -77,6 +77,6 @@
 
 <p align="center">
   <a href="">
-    <img src="https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/aIBM-watson.png" alt="aws-hipaa">
+    <img src="https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/IBM-watson.png" alt="IBM-watson">
   </a>
 </p>
