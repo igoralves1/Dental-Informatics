@@ -64,5 +64,5 @@
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[IBM_alvearie]: imgs/work_in_progress_o.png
-[IBM_alvearie]: imgs/work_in_progress_o.png
+[IBM_alvearie]: imgs/IBM_alvearie.png
+[aws_health]: imgs/aws_health.png
