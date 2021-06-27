@@ -3,7 +3,12 @@
 []()
 []()
 []()
-[]()
+
+
+[Sequencing Basics](https://www.thermofisher.com/us/en/home/life-science/sequencing/sequencing-learning-center/sequencing-basics.html)
+>If you are new to sequencing or just want to find out more about new applications, start here to learn about the history of sequencing and key sequencing methods for DNA and RNA characterization. Discover how to size DNA by fragment analysis and how to choose the right method for your applications. From gold-standard sequencing and fragment analysis by capillary electrophoresis (CE) to flexible and scalable next-generation sequencing (NGS), learn more about the technologies that can help your research lab realize its full sequencing potential.
+
+
 [Introduction To Bioinformatics And Summary For Beginners
 ](https://www.youtube.com/watch?v=28lMfTQTFas)
 

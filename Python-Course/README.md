@@ -18,9 +18,19 @@
 [BI Analytics - Boosted](https://www.atoti.io/https://www.atoti.io/)
 
 [Mathematics for computer vision](https://www.coursera.org/learn/mathematics-for-computer-vision?specialization=basics-in-computer-vision#syllabus)
+
 [Master of Computer Vision](https://www.coursera.org/degrees/ms-computer-vision-hse/academics)
+
 [Basics in computer vision](https://www.coursera.org/specializations/basics-in-computer-vision)
+
 [A friendly introduction to linear algebra for ML](https://www.youtube.com/watch?v=LlKAna21fLE)
+
 [Mathematics for Machine Learning](https://www.youtube.com/watch?v=1VSZtNYMntM)
+
 [Mohammed J. Zaki](https://dataminingbook.info/book_html/chap1/book-watermark.html)
-[]()
+
+[Linear Algebra - Math for Machine Learning](https://www.youtube.com/watch?v=uZeDTwWcnuY)
+
+[Understanding Sorting Algorithms](https://www.youtube.com/watch?v=l7-f9gS8VOs)
+
+[Advanced Computer Vision with Python - Full Course](https://www.youtube.com/watch?v=01sAkU_NvOY)
