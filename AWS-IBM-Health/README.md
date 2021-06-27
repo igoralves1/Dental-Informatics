@@ -5,7 +5,7 @@
 </a>
 </h2>
 
-[![AWS HEALTH][imgs]](https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/aws_health.png)
+[![AWS HEALTH][aws_health]](https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/aws_health.png)
 
 
 [Healthcare & Life Sciences](https://aws.amazon.com/health/?nc1=h_ls)
@@ -22,6 +22,9 @@
 6. [Healthcare & Life Sciences Case Studies](https://aws.amazon.com/health/case-studies/?case-studies-health-cards.sort-by=item.additionalFields.publishedDate&case-studies-health-cards.sort-order=desc&awsf.case-studies-filter-area=*all)
    - Case studies in healthcare and life sciences to see how they are impacting patient lives while benefitting from the agility and innovation available with AWS.
 
+<p>  </p>
+<p>  </p>
+<p>  </p>
 
 <h1 align="center">IBM - Project Alvearie</h1>
 <h2 align="center">An Open Source Project Designed to Make Healthcare Innovation Possible
@@ -30,7 +33,7 @@
 </a>
 </h2>
 
-[![IBM ALVEARIE][imgs]](https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/IBM_alvearie.png)
+[![IBM ALVEARIE][IBM_alvearie]](https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/IBM_alvearie.png)
 
 [Project Alvearie](https://alvearie.io/)
 > Project Alvearie seeks to help healthcare tech professionals unlock and effectively use healthcare data to solve the biggest challenges in healthcare.
@@ -61,4 +64,5 @@
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[imgs]: imgs/work_in_progress_o.png
+[IBM_alvearie]: imgs/work_in_progress_o.png
+[IBM_alvearie]: imgs/work_in_progress_o.png
