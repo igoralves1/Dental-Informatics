@@ -25,7 +25,7 @@
 1. [AstraZeneca’s Genomics Data Processing Solution Runs 51 Billion Tests in 1 Day on AWS](https://aws.amazon.com/solutions/case-studies/astrazeneca/?did=cr_card&trk=cr_card)
 2. [UC San Diego Health Implements AI Imaging Algorithm to Detect COVID-19 in 10 Days Using AWS](https://aws.amazon.com/solutions/case-studies/ucsd-ai-imaging/?did=cr_card&trk=cr_card)
 
-AWS HIPAA
+### [AWS HIPAA](https://aws.amazon.com/compliance/hipaa-compliance/)
 >A growing number of healthcare providers, payers, and IT professionals are using AWS's utility-based cloud services to process, store, and transmit protected health information (PHI). AWS enables covered entities and their business associates subject to the U.S. Health Insurance Portability and Accountability Act of 1996 (HIPAA) to use the secure AWS environment to process, maintain, and store protected health information. For detailed information about how you can use AWS for the processing and storage of health information, see the whitepaper Architecting for HIPAA Security and Compliance on Amazon Web Services.
 
 <p align="center">
