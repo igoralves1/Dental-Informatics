@@ -1,22 +1,8 @@
-<h1 align="center">AWS - Healthcare & Life Sciences</h1>
-<h2 align="center">Focus on patients. AWS is how.</h2>
 <p align="center">
   <a href="">
-    <img src="https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/aws_health.png" alt="Logo">
+    <img src="https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/aws_health.png" alt="aws_health">
   </a>
-
-  <p align="center">
-    This project intends to be a central repository to be used by health professionals in general and  dentists in particular (students, teachers and professionals)
-    <br />
-  </p>
 </p>
-
-
-
-<img align="center" src="https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/aws_health.png" alt="aws_health" width="200" height="200">
-
-[![AWS HEALTH][aws_health]](https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/aws_health.png)
-
 
 [Healthcare & Life Sciences](https://aws.amazon.com/health/?nc1=h_ls)
 1. [Healthcare Providers](https://aws.amazon.com/health/providers/)
@@ -39,9 +25,11 @@
 <h1 align="center">IBM - Project Alvearie</h1>
 <h2 align="center">An Open Source Project Designed to Make Healthcare Innovation Possible</h2>
 
-<img align="center" src="https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/IBM_alvearie.png" alt="IBM_alvearie" width="200" height="200">
-
-[![IBM ALVEARIE][IBM_alvearie]](https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/IBM_alvearie.png)
+<p align="center">
+  <a href="">
+    <img src="https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/IBM_alvearie.png" alt="IBM_alvearie">
+  </a>
+</p>
 
 [Project Alvearie](https://alvearie.io/)
 > Project Alvearie seeks to help healthcare tech professionals unlock and effectively use healthcare data to solve the biggest challenges in healthcare.
