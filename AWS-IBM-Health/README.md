@@ -18,8 +18,11 @@
    - Increase your pace of innovation, lower development costs, and speed time to market by leveraging the comprehensive portfolio of service and solutions on AWS. Help shape the future of healthcare by building on the most secure, reliable, and trusted cloud platform.
 5. [Healthcare Payors](https://aws.amazon.com/health/payors/?nc=sn&loc=2&dn=4)
    - Manage costs, better understand member populations, and personalize the healthcare experience with AWS. Leverage trusted AWS technologies to collaborate and innovate on the most mature and reliable cloud platform that delivers the most functionality, and trusted security, compliance, and data privacy.
-6. [Healthcare & Life Sciences Case Studies](https://aws.amazon.com/health/case-studies/?case-studies-health-cards.sort-by=item.additionalFields.publishedDate&case-studies-health-cards.sort-order=desc&awsf.case-studies-filter-area=*all)
-   - Case studies in healthcare and life sciences to see how they are impacting patient lives while benefitting from the agility and innovation available with AWS.
+
+### [Healthcare & Life Sciences Case Studies](https://aws.amazon.com/health/case-studies/?case-studies-health-cards.sort-by=item.additionalFields.publishedDate&case-studies-health-cards.sort-order=desc&awsf.case-studies-filter-area=*all)
+>Case studies in healthcare and life sciences to see how they are impacting patient lives while benefitting from the agility and innovation available with AWS.
+1. [AstraZeneca’s Genomics Data Processing Solution Runs 51 Billion Tests in 1 Day on AWS](https://aws.amazon.com/solutions/case-studies/astrazeneca/?did=cr_card&trk=cr_card)
+2. [UC San Diego Health Implements AI Imaging Algorithm to Detect COVID-19 in 10 Days Using AWS](https://aws.amazon.com/solutions/case-studies/ucsd-ai-imaging/?did=cr_card&trk=cr_card)
 
 <br />
 <br />
