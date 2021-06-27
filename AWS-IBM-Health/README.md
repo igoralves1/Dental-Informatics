@@ -1,9 +1,7 @@
 <h1 align="center">AWS - Healthcare & Life Sciences</h1>
-<h2 align="center">Focus on patients. AWS is how.
-<a href="https://www.linkedin.com/in/igoralves1/">
-    <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="Logo" width="20" height="20">
-</a>
-</h2>
+<h2 align="center">Focus on patients. AWS is how.</h2>
+
+<img src="https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/aws_health.png" alt="aws_health" width="20" height="20">
 
 [![AWS HEALTH][aws_health]](https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/aws_health.png)
 
@@ -27,11 +25,9 @@
 <p>  </p>
 
 <h1 align="center">IBM - Project Alvearie</h1>
-<h2 align="center">An Open Source Project Designed to Make Healthcare Innovation Possible
-<a href="https://www.linkedin.com/in/igoralves1/">
-    <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="Logo" width="20" height="20">
-</a>
-</h2>
+<h2 align="center">An Open Source Project Designed to Make Healthcare Innovation Possible</h2>
+
+<img src="https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/IBM_alvearie.png" alt="IBM_alvearie" width="20" height="20">
 
 [![IBM ALVEARIE][IBM_alvearie]](https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/IBM_alvearie.png)
 
