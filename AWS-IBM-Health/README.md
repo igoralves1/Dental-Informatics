@@ -1,4 +1,12 @@
-# AWS - Healthcare & Life Sciences
+<h1 align="center">AWS - Healthcare & Life Sciences</h1>
+<h2 align="center">Focus on patients. AWS is how.
+<a href="https://www.linkedin.com/in/igoralves1/">
+    <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="Logo" width="20" height="20">
+</a>
+</h2>
+
+[![AWS HEALTH][imgs]](https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/aws_health.png)
+
 
 [Healthcare & Life Sciences](https://aws.amazon.com/health/?nc1=h_ls)
 1. [Healthcare Providers](https://aws.amazon.com/health/providers/)
@@ -7,12 +15,22 @@
    - With the help of AWS, biopharma organizations modernize every stage of the value chain—from R&D through commercialization—to bring advanced and differentiated therapeutics to market faster. Unlock the potential of scientific data and develop a more streamlined approach to therapeutic development with AWS. As a trusted partner to industry leaders, you can leverage the decades of life sciences expertise at AWS to accelerate discovery, product development, manufacturing and commercialization. The unmatched reliability, security, and data privacy with AWS allow you to confidently innovate in a highly dynamic market.
 3. [Genomics in the Cloud](https://aws.amazon.com/health/genomics/)
    - With AWS, genomics customers can dedicate more time and resources to science, speeding time to insights, achieving breakthrough research faster, and bringing lifesaving products to market. AWS enables customers to innovate by making genomics data more accessible and useful. AWS delivers the breadth and depth of services to reduce the time between sequencing and interpretation, with secure and frictionless collaboration capabilities across multi-modal datasets. Plus, you can choose the right tool for the job to get the best cost and performance at a global scale— accelerating the modern study of genomics.
-4. [Healthcare & Life Sciences Case Studies](https://aws.amazon.com/health/case-studies/?case-studies-health-cards.sort-by=item.additionalFields.publishedDate&case-studies-health-cards.sort-order=desc&awsf.case-studies-filter-area=*all)
+4. [HealthTech](https://aws.amazon.com/health/healthtech/?nc=sn&loc=2&dn=5)
+   - Increase your pace of innovation, lower development costs, and speed time to market by leveraging the comprehensive portfolio of service and solutions on AWS. Help shape the future of healthcare by building on the most secure, reliable, and trusted cloud platform.
+5. [Healthcare Payors](https://aws.amazon.com/health/payors/?nc=sn&loc=2&dn=4)
+   - Manage costs, better understand member populations, and personalize the healthcare experience with AWS. Leverage trusted AWS technologies to collaborate and innovate on the most mature and reliable cloud platform that delivers the most functionality, and trusted security, compliance, and data privacy.
+6. [Healthcare & Life Sciences Case Studies](https://aws.amazon.com/health/case-studies/?case-studies-health-cards.sort-by=item.additionalFields.publishedDate&case-studies-health-cards.sort-order=desc&awsf.case-studies-filter-area=*all)
    - Case studies in healthcare and life sciences to see how they are impacting patient lives while benefitting from the agility and innovation available with AWS.
 
 
+<h1 align="center">IBM - Project Alvearie</h1>
+<h2 align="center">An Open Source Project Designed to Make Healthcare Innovation Possible
+<a href="https://www.linkedin.com/in/igoralves1/">
+    <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="Logo" width="20" height="20">
+</a>
+</h2>
 
-# IBM - Project Alvearie - An Open Source Project Designed to Make Healthcare Innovation Possible
+[![IBM ALVEARIE][imgs]](https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/IBM_alvearie.png)
 
 [Project Alvearie](https://alvearie.io/)
 > Project Alvearie seeks to help healthcare tech professionals unlock and effectively use healthcare data to solve the biggest challenges in healthcare.
@@ -38,3 +56,9 @@
 ### IBM Articles
 1.  [4 reasons to join open source Project Alvearie and help solve healthcare’s toughest problems](https://developer.ibm.com/blogs/4-reasons-to-join-project-alvearie-ibms-open-source-healthcare-effort/)
 2. [Healthcare technology drives industry-wide transformation](https://www.ibm.com/watson-health/learn/healthcare-technology)
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[imgs]: imgs/work_in_progress_o.png
