@@ -1,5 +1,17 @@
 <h1 align="center">AWS - Healthcare & Life Sciences</h1>
 <h2 align="center">Focus on patients. AWS is how.</h2>
+<p align="center">
+  <a href="">
+    <img src="https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/aws_health.png" alt="Logo">
+  </a>
+
+  <p align="center">
+    This project intends to be a central repository to be used by health professionals in general and  dentists in particular (students, teachers and professionals)
+    <br />
+  </p>
+</p>
+
+
 
 <img align="center" src="https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/aws_health.png" alt="aws_health" width="200" height="200">
 
@@ -20,9 +32,9 @@
 6. [Healthcare & Life Sciences Case Studies](https://aws.amazon.com/health/case-studies/?case-studies-health-cards.sort-by=item.additionalFields.publishedDate&case-studies-health-cards.sort-order=desc&awsf.case-studies-filter-area=*all)
    - Case studies in healthcare and life sciences to see how they are impacting patient lives while benefitting from the agility and innovation available with AWS.
 
-<p>  </p>
-<p>  </p>
-<p>  </p>
+<br />
+<br />
+<br />
 
 <h1 align="center">IBM - Project Alvearie</h1>
 <h2 align="center">An Open Source Project Designed to Make Healthcare Innovation Possible</h2>
