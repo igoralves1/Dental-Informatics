@@ -34,3 +34,6 @@
 [Understanding Sorting Algorithms](https://www.youtube.com/watch?v=l7-f9gS8VOs)
 
 [Advanced Computer Vision with Python - Full Course](https://www.youtube.com/watch?v=01sAkU_NvOY)
+
+
+[40 Days of AI](https://www.linkedin.com/pulse/40-days-ai-steve-nouri/)

@@ -2,7 +2,8 @@
 []()
 []()
 []()
-[40 Days of AI](https://www.linkedin.com/pulse/40-days-ai-steve-nouri/)
+
+
 
 
 [Sequencing Basics](https://www.thermofisher.com/us/en/home/life-science/sequencing/sequencing-learning-center/sequencing-basics.html)
