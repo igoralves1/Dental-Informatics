@@ -72,8 +72,11 @@
 2. [Healthcare technology drives industry-wide transformation](https://www.ibm.com/watson-health/learn/healthcare-technology)
 
 
+### [IBM Watson Health](https://www.ibm.com/watson-health)
+>The combination of our core strengths—our deep industry experience in health, our advanced technology solutions including options for AI, blockchain, and data and analytics, and our reputation for trust and security—enables Watson Health to support our clients' digital transformations. Through a combination of technology solutions and experienced consulting, we're helping organizations become more efficient, resilient and robust institutions that can deliver on their mission to their communities.
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[IBM_alvearie]: imgs/IBM_alvearie.png
-[aws_health]: imgs/aws_health.png
+<p align="center">
+  <a href="">
+    <img src="https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/aIBM-watson.png" alt="aws-hipaa">
+  </a>
+</p>
