@@ -6,3 +6,8 @@
 
 ### About this dataset
 >This dataset provides historical data of The Goldman Sachs Group, Inc. (GS). The data is available at a daily level. Currency is USD.
+
+### Questions that we want to answer:
+1. How many rows?
+2. How many columns?
+3. ...
