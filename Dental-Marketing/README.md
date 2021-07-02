@@ -46,8 +46,8 @@ mongo --username root --password pay23*3TM0r34Nothin$ --authenticationDatabase a
 
 [buzzsumo](https://app.buzzsumo.com/upgrade/facebook?redirect_to=facebookContent)
 [Want More Patients? Market Your Practice To Small Businesses](https://www.linkedin.com/in/kim-larson-031084b6/detail/recent-activity/posts/)
-[]()
-[]()
+[](https://www.uol.com.br/tilt/reportagens-especiais/como-ganhar-dinheiro-no-youtube-veja-dicas-e-saiba-quanto/#page1)
+[](https://www.nielsen.com/us/en/insights/article/2021/the-gauge-shows-streaming-takes-a-seat-at-the-table/)
 []()
 []()
 []()

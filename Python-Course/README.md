@@ -37,3 +37,41 @@
 
 
 [40 Days of AI](https://www.linkedin.com/pulse/40-days-ai-steve-nouri/)
+
+[Data Analytics Crash Course: Teach Yourself in 30 Days](https://www.youtube.com/watch?v=jcTj6FgWOpo&t=1130s)
+
+[Big Data Tutorial For Beginners | Big Data Full Course | Learn Big Data Step By Step | Simplilearn](https://www.youtube.com/watch?v=KcecJfxbd-4)
+
+[Natural Language Processing in Python](https://www.youtube.com/watch?v=xvqsFTUsOmc&t=1991s)
+
+[Data Viking](https://www.youtube.com/channel/UCZT-d8Q9d3obS6NxhyxnznQ/playlists)
+[Ciência de Dados - Telegram](https://t.me/joinchat/cPp1zhxTueU0YzFh)
+[5 métricas de distância mais comumente usadas no aprendizado de máquina](https://ichi.pro/pt/5-metricas-de-distancia-mais-comumente-usadas-no-aprendizado-de-maquina-166861444984849)
+[Demistificando Séries temporais - Fernando Amaral](https://www.youtube.com/watch?v=0RbUk3pjSKY)
+[Modelagem Estatística - Prof. Adriana Silva - Jedi em Analytics!](https://www.youtube.com/playlist?list=PLjdDBZW3EmXfyfLYp35AMyDN-clDPAu28)
+[Matemática para Machine Learning](https://www.youtube.com/playlist?list=PLyqOvdQmGdTTYHKdxWRmt8oOhMwYhmxkM)
+[Testes de Hipóteses](https://www.youtube.com/playlist?list=PL7xT0Gz6G0-TfV-S6WiGDvIsZds6Pv_g8)
+[Medidas de Dispersão](https://www.youtube.com/playlist?list=PL7xT0Gz6G0-T2gcNyfSgLevC1vbcMf3nz)
+[PROBABILIDADE](https://www.youtube.com/playlist?list=PLN0ZrxDaBfhgFE48sqlySnEgdFVGroKsf)
+[Introdução à Estatística](https://www.youtube.com/playlist?list=PL7xT0Gz6G0-RNpEswiFdLgaSBsTLDUDbh)
+[Estatística](https://www.youtube.com/playlist?list=PLVGJZxcisYSGmqs4muOxEoiqUYWlAVmef)
+[Estatidados](https://www.linkedin.com/company/estathifisco/)
+[How Transformers work in deep learning and NLP: an intuitive introduction](https://theaisummer.com/transformer/)
+[O QUE EU FARIA, SE TIVESSE QUE COMEÇAR DATA SCIENCE HOJE.](https://www.youtube.com/watch?v=VlYDWOfiFuc)
+[Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/#getting-started)
+
+
+[Javascript Algorithms](https://www.youtube.com/playlist?list=PLXzMwWvud3xSsw8TgFO2hjn5Yo-LSkyBx)
+[]()
+
+### Data Science
+[O QUE EU FARIA, SE TIVESSE QUE COMEÇAR DATA SCIENCE HOJE](https://www.youtube.com/watch?v=VlYDWOfiFuc)
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
