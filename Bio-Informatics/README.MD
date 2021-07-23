@@ -50,3 +50,7 @@
 
 
 [Clinical interpretation of genome variation](https://www.biomedcentral.com/collections/clinicalgenome?)
+
+### Articles
+[Recovery of deleted deep sequencing data sheds more light on the early Wuhan SARS-CoV-2 epidemic](https://www.biorxiv.org/content/10.1101/2021.06.18.449051v2)
+1. [Cientista descobre que algumas das primeiras sequências do coronavírus na China foram apagadas](https://brasil.elpais.com/ciencia/2021-06-24/cientista-descobre-que-algumas-das-primeiras-sequencias-do-coronavirus-na-china-foram-apagadas.html)

@@ -3,3 +3,6 @@ https://docs.google.com/presentation/d/1aZ5qPVGwt6pM6HWo4MgpFIJ0nPVQMy8Hx_nVi7kG
 
 
 [Dental Informatics](https://www.ada.org/en/member-center/member-benefits/practice-resources/dental-informatics)
+
+[academiadigital-Albert Eisnstein](https://academiadigital.einstein.br/sobre-a-academia)
+[academiadigital.einstein](https://academiadigital.einstein.br/categorias)

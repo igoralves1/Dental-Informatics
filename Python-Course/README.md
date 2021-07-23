@@ -12,6 +12,8 @@
 ## Computer Vision Tutorials
 [Computer Vision Tutorials](https://realpython.com/tutorials/computer-vision/)
 
+[The magic kernel](http://johncostella.com/magic/)
+
 [prnewswire](https://www.prnewswire.com/news-releases/in-a-dental-industry-first-overjets-dental-assist-receives-fda-clearance-to-bring-ai-to-the-dental-practice-301295927.html)
 [itlink](https://itlink.fr/)
 
@@ -66,12 +68,17 @@
 
 ### Data Science
 [O QUE EU FARIA, SE TIVESSE QUE COMEÇAR DATA SCIENCE HOJE](https://www.youtube.com/watch?v=VlYDWOfiFuc)
-[]()
-[]()
-[]()
-[]()
-[]()
-[]()
+
+[Reimagine clinical trials with open approaches and interoperability](https://www.ibm.com/blogs/watson-health/reimagine-clinical-trials-with-open-approaches-and-interoperability/)
+
+[5 pharma trends to watch in 2020](https://www.ibm.com/blogs/watson-health/5-pharma-trend-2020/)
+
+[Building AI models for healthcare - ML Tech Talks](https://www.youtube.com/watch?v=UZEstizNxkg)
+
+[Tensorflow Object Detection in 5 Hours with Python | Full Course with 3 Projects](https://morioh.com/p/394e0ce5e3ac)
+
+[Deep Learning Full Course](https://morioh.com/p/39e64ba8b025)
+[StatQuest with Josh Starmer](https://www.youtube.com/c/joshstarmer/featured)
 []()
 []()
 []()

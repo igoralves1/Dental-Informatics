@@ -4,3 +4,6 @@
 https://www.facebook.com/Clinique-dentaire-Christine-Martel-21068750935680
 
 https://www.ibm.com/watson-health/learn/healthcare-technology
+
+
+[Dental Sterilizers Market Size, Growth - 2021](https://www.marketwatch.com/press-release/dental-sterilizers-market-size-growth---2021-global-manufacturers-with-share-development-status-total-revenue-business-overview-economic-scenario-and-opportunities-by-2027-2021-07-08)

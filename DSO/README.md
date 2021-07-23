@@ -7,7 +7,7 @@
 ## DSO (What is it? What is it for? How/Where are they distributed?)
 1 - [Dental Service Organizations - Wiki](https://en.wikipedia.org/wiki/Dental_Service_Organizations)
 >***Dental Service Organizations***, known in the industry as "Dental Support Organizations" or abbreviated to DSOs, are independent business support centers that contract with dental practices in the United States. They provide business management and support to dental practices, including non-clinical operations.
-Following the passage of the Affordable Care Act and the recent expansion of Medicaid, the DSO model has become increasingly popular for dental practices. In certain parts of the United States, dental practices have begun to transition from a traditional practice to a DSO model in order to provide more affordable care to a larger patient population. Dentistry innovations have meant that DSOs have become a common dental care solution to many low-income families in the United States. The grouping of dental practices has allowed DSOs to minimize their costs, allowing practices to pass the saving on to patients currently without adequate dental care. 
+Following the passage of the Affordable Care Act and the recent expansion of Medicaid, the DSO model has become increasingly popular for dental practices. In certain parts of the United States, dental practices have begun to transition from a traditional practice to a DSO model in order to provide more affordable care to a larger patient population. Dentistry innovations have meant that DSOs have become a common dental care solution to many low-income families in the United States. The grouping of dental practices has allowed DSOs to minimize their costs, allowing practices to pass the saving on to patients currently without adequate dental care.
 
 2 - [How the DSO Dental Model Impacts the Dental Industry](https://www.planetdds.com/blog/how-the-dso-dental-model-impacts-the-dental-industry)
 
@@ -17,7 +17,7 @@ Following the passage of the Affordable Care Act and the recent expansion of Med
 
 5 - [American Association for Public Opinion Research](https://www.aapor.org/)
 
-6 - 
+6 -
 
 7 - [Dental Practice Success: 4 Tips To Close Out The Year Strong](https://www.offthecusp.com/dental-practice-success-4-tips-to-close-out-the-year-strong/)
 8 - [Tech Insights: 3 Winning Technologies For Dentists During COVID-19](https://www.offthecusp.com/tech-insights-3-winning-technologies-for-dentists-during-covid-19/)
@@ -79,3 +79,6 @@ x - []()
 - [How COVID-19 is reshaping China’s medtech industry](https://www.mckinsey.com/featured-insights/china/how-covid-19-is-reshaping-chinas-medtech-industry)
 - [What the Pandemic Means for Health Care’s Digital Transformation](https://hbr.org/2020/12/what-the-pandemic-means-for-health-cares-digital-transformation)
 - [OdontoPrev (ODPV3)](https://comoinvestir.thecap.com.br/odontoprev-odpv3-pagara-r-83-1-milhoes-de-dividendos-em-outubro/)
+
+
+[DSO Industry](https://dykemadso.com/about-our-group/)

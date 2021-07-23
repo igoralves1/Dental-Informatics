@@ -32,7 +32,7 @@
 </p>
 
 
-<p>*************************</p>
+# Please Note: This is a WIP
 
 [![Web App Architecture][app-architecture]](https://github.com/igoralves1/Dental-Informatics/blob/main/imgs/work_in_progress_o.png)
 
@@ -304,3 +304,10 @@ chmod 400 new-user.pem
 
 
 ssh -i "coltene-admin-prod.pem" coltene-admin-prod@ec2-54-242-99-115.compute-1.amazonaws.com
+
+
+
+[Dental Informatics - Its Importance in Dental Education](https://dental.nyu.edu/aboutus/news/nexus/millennium-issue/dental-informatics.html)
+
+[ELISE S. EISENBERG, DDS, MA](https://dental.nyu.edu/faculty/pt/ee6.html)
+- [What dental educators need to understand about emerging technologies to incorporate them effectively into the educational process](https://pubmed.ncbi.nlm.nih.gov/24706681/)
