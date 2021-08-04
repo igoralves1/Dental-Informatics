@@ -79,6 +79,6 @@
 
 [Deep Learning Full Course](https://morioh.com/p/39e64ba8b025)
 [StatQuest with Josh Starmer](https://www.youtube.com/c/joshstarmer/featured)
-[]()
+[](https://pastebin.com/0e6jWyrN)
 []()
 []()

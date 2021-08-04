@@ -28,6 +28,8 @@
     <a href="https://github.com/igoralves1/Dental-Informatics/issues">Request Feature</a>
     ·
     <a href="#">JIRA Ticket</a>
+    .
+    <a href="https://ehealthbr.gitbook.io/ehealthbr/analytics-bi-e-datalake-com-dados/crm">Health Book</a>
   </p>
 </p>
 
@@ -326,6 +328,11 @@ ssh -i "coltene-admin-prod.pem" coltene-admin-prod@ec2-54-242-99-115.compute-1.a
 </p>
 
 [Healthcare & Life Sciences](https://aws.amazon.com/health/?nc1=h_ls)
+> AWS is the trusted technology and innovation partner to the global healthcare and life sciences industry, providing unmatched reliability, security, and data privacy.
+>
+> Healthcare and life science organizations are reinventing how they collaborate, make data driven clinical and operational decisions, enable precision medicine, and decrease the cost of care.
+>
+>Introducing AWS for Health, an offering of AWS services and AWS Partner Network solutions used by thousands of healthcare and life sciences customers globally. AWS for Health provides proven and easily accessible capabilities that help organizations increase the pace of innovation, unlock the potential of health data, and develop more personalized approaches to therapeutic development and care.
 1. [Healthcare Providers](https://aws.amazon.com/health/providers/)
    - As the most secure, reliable, and broadly adopted cloud platform, AWS is the trusted technology partner for healthcare providers and protected health information worldwide. Providers can accelerate innovation, unlock siloed data, and develop personalized care strategies—all while operating securely in a highly regulated industry.
 2. [Biopharma on AWS](https://aws.amazon.com/health/biopharma/)
@@ -336,6 +343,7 @@ ssh -i "coltene-admin-prod.pem" coltene-admin-prod@ec2-54-242-99-115.compute-1.a
    - Increase your pace of innovation, lower development costs, and speed time to market by leveraging the comprehensive portfolio of service and solutions on AWS. Help shape the future of healthcare by building on the most secure, reliable, and trusted cloud platform.
 5. [Healthcare Payors](https://aws.amazon.com/health/payors/?nc=sn&loc=2&dn=4)
    - Manage costs, better understand member populations, and personalize the healthcare experience with AWS. Leverage trusted AWS technologies to collaborate and innovate on the most mature and reliable cloud platform that delivers the most functionality, and trusted security, compliance, and data privacy.
+
 
 
 ### [AWS Healthcare & Life Sciences Case Studies](https://aws.amazon.com/health/case-studies/?case-studies-health-cards.sort-by=item.additionalFields.publishedDate&case-studies-health-cards.sort-order=desc&awsf.case-studies-filter-area=*all)

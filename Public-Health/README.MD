@@ -10,3 +10,5 @@ on higher education systems, credentials in 196 countries and territories and ov
 [cosemssp](https://www.cosemssp.org.br/jornal-edicoes/)
 
 [Applying machine learning to population health challenges](https://www.ibm.com/blogs/watson-health/applying-machine-learning-to-population-health/)
+
+[aidsvu](https://map.aidsvu.org/map)
