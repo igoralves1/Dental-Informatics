@@ -39,7 +39,7 @@ Esses estudos devem ser reproduzíveis e devem ter suas capacidades e precisões
 
 Para tais avanços, o primeiro passo a ser tomado é o desenvolvimento de preceitos sobre a governança de dados dos indivíduos, que deve se situar de forma ética e responsável no âmbito legal, governamental e bioético. De mesma forma deve-se assegurar a segurança das informações e a hierarquização do acessos dessas informações dentro dos serviços de saúde antes de implementações dessas tecnologias em larga escala para a sociedade.
 
-## Nosso propósito
+## Descrição
 
 
 Este repositório propõe ao cirurgião-dentista, desde o início, fornecer capacidade para compreender os potenciais tecnológicos da atualidade e facilitar o processo de aprendizado. Para isto, é importante primeiro entendermos os diferentes tipos de inovação e as variadas formas de modelos de negócios que podem ser criados a partir de uma inovação. Tendo isto em mente, o processo de aprendizado torna-se um objetivo a partir de uma ideia, possibilitando ao cirurgião-dentista ser agente transformador em sua profissão.
@@ -49,8 +49,20 @@ Pull requests são bem-vindos. Para maiores alteraçoes, por favor abra antes um
 
 Por favor certifique-se que todas as alterações estão indo bem.
 
-## Licensa
-[MIT](https://choosealicense.com/licenses/mit/)
+## Uso
+Este repositório é destinados aos cirurgiões-dentistas interessados em aprender e dominar as novas tecnologias a fim de se tornar agente transformador no processo de inovação e transformação da profissão.
+
+## Status do projeto
+Esse projeto ainda encontra-se em andamento. As aulas serão postadas paulatinamente assim que produzidas, editadas e revisadas.
+
+## Roteiro
+Este curso buscará levá-lo inicialmente a compreender as métricas financeiras de um negócio e suas devidas características, de acordo com o modelo de inovação seguido pela empresa, para diferentes tipos de modelos de negócios em saúde. Após compreender essas características contábeis, buscaremos ir de encontro com um framework adaptado por mim e nomeado de metodologia RAIME para detecção de saúde financeira de uma empresa. 
+
+## Suporte
+Para este curso, você pode entrar em contato [comigo](https://github.com/gu-raime) para sanar suas dúvidas. 
+## Autores e reconhecimento
+
+Dr. Gustavo Raime e Dr. Igor Alves
 
 <br/><br/>
 
