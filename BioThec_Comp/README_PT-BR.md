@@ -97,7 +97,7 @@ Dr. Gustavo Raime e Dr. Igor Alves
 
 ### Cursos:
 
-- [Harvard Business School Innovating in Healthcare Couurse](https://www.edx.org/course/innovating-in-health-care-2?index=product&queryID=b138a62143c21aa14916b71f3a0705d9&position=1)
+- [Harvard Business School Innovating in Healthcare Course](https://www.edx.org/course/innovating-in-health-care-2?index=product&queryID=b138a62143c21aa14916b71f3a0705d9&position=1)
 
 - [Massachussetts Institute of Technology Machine Learning Course](https://www.edx.org/course/machine-learning-with-python-from-linear-models-to?index=product&queryID=3bb24f46c3d0e98cc69f5a56dd637ca8&position=4)
 
@@ -107,7 +107,7 @@ Dr. Gustavo Raime e Dr. Igor Alves
 
 - [University of California Healthcare Data Quality and Governance Course](https://www.coursera.org/learn/healthcare-data-quality-governance)
 
-- [University of Colorada Addvanced Clinical Data Science Course](https://www.coursera.org/learn/advanced-clinical-data-science)
+- [University of Colorado Addvanced Clinical Data Science Course](https://www.coursera.org/learn/advanced-clinical-data-science)
 
 - [School of Medicine Johns Hopkings University Leading Change in Health Informatics Course](https://www.coursera.org/learn/leading-change-health-informatics)
 
