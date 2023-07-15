@@ -412,6 +412,7 @@ ssh -i "coltene-admin-prod.pem" coltene-admin-prod@ec2-54-242-99-115.compute-1.a
 1. [TriHealth](https://www.ibm.com/case-studies/trihealth-watson-health-iconnect/)
 2. [TidalHealth Peninsula Regional](https://www.ibm.com/case-studies/tidalhealth-peninsula-regional/)
 3. [NYC Department of Social Services](https://www.ibm.com/case-studies/b025674t19569b75)
+4. [boardofinnovation](https://healthcare.boardofinnovation.com/tools/jsf/jet-engine:cases/pagenum/3/)
 
 
 
