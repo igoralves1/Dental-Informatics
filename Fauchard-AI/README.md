@@ -126,11 +126,13 @@
   - **Possible Clients**: Dental surgery centers, individual practitioners.
 
 ### 4.4. Integration with APIs and Real-time Video Input
-#### Business Case Scenario: Automated Supply Chain Management
+- **The AI will interact with the real world through cameras spread throughout the dental office and in dentist vision glasses. These glasses can be models like Apple Glass or similar.**
 - **Objective**: The goal is to leverage real-time video input and advanced AI capabilities to automate the identification of dental materials used during procedures and communicate with suppliers to ensure timely resupply, thus optimizing inventory management and operational efficiency in dental offices.
 - **Components**:
   1. **Real-time Video Input**:
-     - **Camera Setup**: Install high-resolution cameras in the dental office to capture real-time video feeds of ongoing procedures and the overall office environment.
+     - **Camera Setup**: Install high-resolution cameras in the dental office and integrate vision glasses worn by dentists to capture real-time video feeds of ongoing procedures and the overall office environment.
+       - **Example**: Apple Glass or similar augmented reality glasses.
+       - **Updated Link**: [Apple Glass News](https://www.macrumors.com/roundup/apple-glasses/)
      - **Video Analysis**: Use advanced video analysis techniques to monitor and identify the dental materials and tools being used during procedures.
   2. **Material Identification**:
      - **Object Recognition**: Implement object recognition models trained to identify various dental materials, tools, and consumables used in dental practices, such as implants, syringes, gloves, masks, and dental instruments.
@@ -213,13 +215,13 @@
 ### 6.3. Training Process
 - **Initial Training**: Train the base model with general dental knowledge, including foundational concepts and basic procedures.
   - **Business Model**: Offer training services for dental AI models.
-  - **Possible Clients**: Dental software developers, research institutions.
+  - **Possible Clients**: Dental software developers,
+
+ research institutions.
 - **Fine-Tuning**: Fine-tune the model with specialized datasets in areas such as oral maxillofacial surgery, implants, orthodontics, and other dental specialties.
   - **Business Model**: Provide fine-tuning services for specific dental applications.
   - **Possible Clients**: Dental technology companies, large dental practices.
--
-
- **Multimodal Training**: Integrate image and video data into the training process to enhance the model's ability to analyze visual information and provide comprehensive diagnostic and procedural support.
+- **Multimodal Training**: Integrate image and video data into the training process to enhance the model's ability to analyze visual information and provide comprehensive diagnostic and procedural support.
   - **Business Model**: Develop and license multimodal AI models for dental practices.
   - **Possible Clients**: Large dental practices, hospitals with dental departments.
 
