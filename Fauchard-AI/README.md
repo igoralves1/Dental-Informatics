@@ -1,4 +1,4 @@
-# Project Document: Development of Fauchard - A Specialized Generative AI for Dentistry
+# Fauchard Project Document: Development of Fauchard - A Specialized Generative AI for Dentistry
 >This comprehensive project execution plan outlines the necessary steps, timeline, and considerations for developing, validating, and deploying a specialized generative AI for dentistry, starting with radiology and pathology and expanding to other dental fields.
 
 ## 1. Introduction
