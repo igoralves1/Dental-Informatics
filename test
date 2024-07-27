@@ -1,0 +1,399 @@
+
+
+```
+{
+  "TableName": "CdeTwilioStreamFlex",
+  "AttributeDefinitions": [
+      {
+          "AttributeName": "PK",
+          "AttributeType": "S"
+      },
+      {
+          "AttributeName": "SK",
+          "AttributeType": "S"
+      },
+      {
+          "AttributeName": "GSI1PK",
+          "AttributeType": "S"
+      },
+      {
+          "AttributeName": "GSI1SK",
+          "AttributeType": "S"
+      },
+      {
+        "AttributeName": "GSI2PK",
+        "AttributeType": "S"
+      },
+      {
+          "AttributeName": "GSI2SK",
+          "AttributeType": "S"
+      },
+      {
+        "AttributeName": "GSI3PK",
+        "AttributeType": "S"
+      },
+      {
+          "AttributeName": "GSI3SK",
+          "AttributeType": "S"
+      },
+      {
+        "AttributeName": "GSI4PK",
+        "AttributeType": "S"
+      },
+      {
+          "AttributeName": "GSI4SK",
+          "AttributeType": "S"
+      }
+  ],
+  "KeySchema": [
+      {
+          "AttributeName": "PK",
+          "KeyType": "HASH"
+      },
+      {
+          "AttributeName": "SK",
+          "KeyType": "RANGE"
+      }
+  ],
+  "BillingMode": "PAY_PER_REQUEST",
+  "GlobalSecondaryIndexes": [
+      {
+          "IndexName": "GSI1",
+          "KeySchema": [
+              {
+                  "AttributeName": "GSI1PK",
+                  "KeyType": "HASH"
+              },
+              {
+                  "AttributeName": "GSI1SK",
+                  "KeyType": "RANGE"
+              }
+          ],
+          "Projection": {
+              "ProjectionType": "ALL"
+          }
+      },
+      {
+        "IndexName": "GSI2",
+        "KeySchema": [
+            {
+                "AttributeName": "GSI2PK",
+                "KeyType": "HASH"
+            },
+            {
+                "AttributeName": "GSI2SK",
+                "KeyType": "RANGE"
+            }
+        ],
+        "Projection": {
+            "ProjectionType": "ALL"
+        }
+      },
+      {
+        "IndexName": "GSI3",
+        "KeySchema": [
+            {
+                "AttributeName": "GSI3PK",
+                "KeyType": "HASH"
+            },
+            {
+                "AttributeName": "GSI3SK",
+                "KeyType": "RANGE"
+            }
+        ],
+        "Projection": {
+            "ProjectionType": "ALL"
+        }
+    },
+    {
+      "IndexName": "GSI4",
+      "KeySchema": [
+          {
+              "AttributeName": "GSI4PK",
+              "KeyType": "HASH"
+          },
+          {
+              "AttributeName": "GSI4SK",
+              "KeyType": "RANGE"
+          }
+      ],
+      "Projection": {
+          "ProjectionType": "ALL"
+      }
+  }
+  ]
+}
+```
+...
+```
+const { setGlobalVars } = require("./global-vars");
+const { Buffer } = require("buffer");
+const { CallLog } = require("./data/call-log");
+const { CallLogSearch } = require("./data/call-log-search");
+const { CallLogDetailSelfService } = require("./data/call-log-detail-self-service");
+const { ICallLogSearch } = require("./data/models");
+const getExecutionContext = require('./data/execution-context');
+const {
+  EXECUTION_TYPE_STARTED,
+  EXECUTION_TYPE_STEP_ENDED,
+  EXECUTION_TYPE_ENDED,
+  CALL_STATUS_COMPLETE
+ } = require('./data/constants');
+
+const moment = require('moment');
+const merge = require('lodash/merge');
+
+const util = require('./data/util');
+
+const logCat = "ProcessTwilioKinesisStream";
+
+module.exports.handler = async (event) => {
+    const logSubCat = `${logCat}-handler`;
+    setGlobalVars();
+
+    Logger.info({ logCat, logSubCat, message: 'Event ', data: event });
+    let searches = {};
+
+    for (const record of event.Records) {
+        try {
+          const recordData = await getRecordDataAsync(record.kinesis);
+          const data = JSON.parse(recordData);
+          Logger.info({ logCat, logSubCat, message: 'Kinesis Row', data: data });
+
+          const log = new CallLog(process.env.SHARD_ID,
+                                  record.kinesis.sequenceNumber,
+                                  record.kinesis.approximateArrivalTimestamp,
+                                  data.type,
+                                  data.data.execution_sid,
+                                  data.time,
+                                  data.data.started_by,
+                                  data.data);
+
+          if (!searches[log.pk]) {
+            searches[log.pk] = new ICallLogSearch();
+            searches[log.pk].type = data.type;
+            searches[log.pk].executionId = data.data.execution_sid;
+            searches[log.pk].flowSid = data.data.flow_sid;
+            searches[log.pk].context = null;
+            searches[log.pk].widgets = { };
+
+            //==> Sometimes execution.start could come in a separate batch
+            //==>   so we need to query for it
+            if (!data.type.endsWith(EXECUTION_TYPE_STARTED)) {
+              const searchLog = new CallLogSearch(searches[log.pk].type,
+                                                  searches[log.pk].flowSid,
+                                                  searches[log.pk].executionId);
+
+              const [error, result] = await searchLog.get();
+              if (error) {
+                Logger.error({logCat, logSubCat, message: 'DynamoDB Result Error -> CallLogSearch -> get()', data: {code: error.statusCode, message: error.message}});
+              } else {
+                searches[log.pk] = merge(searches[log.pk], result);
+                Logger.info({ logCat, logSubCat, message: 'DynamoDB Result -> CallLogSearch -> get()', data: searches[log.pk] });
+              }
+            }
+
+            const [error, context] = await getExecutionContext(searches[log.pk].flowSid, searches[log.pk].executionId);
+            if (error) {
+              Logger.error({logCat, logSubCat, message: 'Execution Context Error', data: {code: error.statusCode, message: error.message}});
+            } else {
+              searches[log.pk].context = { ...context };
+              Logger.info({ logCat, logSubCat, message: 'Execution Context', data: context });
+            }
+          }
+
+          if (data.type.endsWith(EXECUTION_TYPE_STARTED)) {
+            searches[log.pk].type = data.type;
+            searches[log.pk].time = data.time;
+            searches[log.pk].id = data.data.started_by;
+            searches[log.pk].fromNumber = util.formatPhone(data.data.contact_channel_address);
+          }
+
+          if (data.type.endsWith(EXECUTION_TYPE_STEP_ENDED)) {
+            if (!searches[log.pk]['type']) {
+              searches[log.pk].type = data.type;
+              searches[log.pk].time = data.time;
+            }
+
+            if (!searches[log.pk]['widgets'][data.id]) {
+              searches[log.pk]['widgets'][data.id] = {
+                time: data.time,
+                name: data.data.transitioned_to,
+                class: '',
+                event: data.data.name
+              };
+            }
+          }
+
+          if (data.type.endsWith(EXECUTION_TYPE_ENDED)) {
+            if (!searches[log.pk]['type']) {
+              searches[log.pk].type = data.type;
+              searches[log.pk].time = data.time;
+              searches[log.pk].fromNumber = util.formatPhone(data.data.contact_channel_address);
+            }
+            searches[log.pk]['status'] = CALL_STATUS_COMPLETE;
+            searches[log.pk]['reason'] = data.data.ended_reason;
+
+            const diff = moment(data.data.date_updated).unix() - moment(data.data.date_created).unix();
+            searches[log.pk]['duration'] = moment.duration(diff).asSeconds();
+          }
+
+          if (process.env.IS_LOCAL) {
+            console.log('---------------');
+            console.log(`Log: ${record.kinesis.sequenceNumber} - ${data.type} - ${data.data.execution_sid}`);
+            console.log('---------------');
+          }
+
+          const [error, result] = await log.add(log);
+          if (error) {
+            Logger.error({logCat, logSubCat, message: 'DynamoDB Result Error -> CallLog', data: {code: error.statusCode, message: error.message}});
+          } else {
+            Logger.info({ logCat, logSubCat, message: 'DynamoDB Result -> CallLog', data: result });
+          }
+        } catch (err) {
+          if (process.env.IS_LOCAL) {
+            console.log(err);
+          }
+          Logger.error({logCat, logSubCat, message: 'DynamoDB Result Error', data: err});
+        }
+      }
+      for (let key in searches) {
+        if (searches[key].context.trigger.call) {
+          searches[key].toNumber = util.formatPhone(searches[key].context.trigger.call.To);
+          searches[key].direction = searches[key].context.trigger.call.Direction;
+        }
+
+        const log = new CallLogSearch(searches[key].type,
+                                      searches[key].flowSid,
+                                      searches[key].executionId,
+                                      searches[key].time,
+                                      searches[key].id,
+                                      searches[key].fromNumber,
+                                      searches[key].toNumber,
+                                      searches[key].direction,
+                                      searches[key].status,
+                                      searches[key].duration,
+                                      searches[key].reason);
+
+          const [error, result] = await log.add(log);
+          if (error) {
+            Logger.error({logCat, logSubCat, message: 'DynamoDB Result Error -> CallLogSearch -> add()', data: {code: error.statusCode, message: error.message}});
+          } else {
+            Logger.info({ logCat, logSubCat, message: 'DynamoDB Result -> CallLogSearch -> add()', data: result });
+          }
+
+          for (let widget in searches[key].widgets) {
+            const detail = new CallLogDetailSelfService(searches[key].executionId,
+                                                         widget,
+                                                         searches[key].widgets[widget].time,
+                                                         searches[key].widgets[widget].name,
+                                                         searches[key].widgets[widget].class,
+                                                         searches[key].widgets[widget].event,
+                                                         searches[key].widgets[widget].content);
+
+            const [error, result] = await detail.add();
+            if (error) {
+              Logger.error({logCat, logSubCat, message: 'DynamoDB Result Error -> CallLogDetailSelfService -> add()', data: {code: error.statusCode, message: error.message}});
+            } else {
+              Logger.info({ logCat, logSubCat, message: 'DynamoDB Result -> CallLogDetailSelfService -> add()', data: result });
+            }
+          }
+      }
+
+      Logger.info({ logCat, logSubCat, message: 'Successfully processed', data: `${event.Records.length} records.` });
+};
+
+async function getRecordDataAsync(payload) {
+    var data = Buffer.from(payload.data, "base64").toString("utf-8");
+    await Promise.resolve(1); //Placeholder for actual async work
+    return data;
+}
+```
+
+
+....
+
+```
+const { DynamoDB, config } = require("aws-sdk");
+
+let client = null;
+
+exports.getClient = () => {
+    if (client) return client;
+
+    config  = {
+        endpoint: process.env.DB_ENDPOINT,
+        region: process.env.AWS_REGION,
+        httpOptions: {
+            connectTimeout: 1000,
+            timeout: 1000
+        }
+    }
+    console.log("config==",config)
+    client = new DynamoDB( config );
+
+    return client;
+}
+```
+
+
+......
+
+
+```
+const { unmarshall } = require("@aws-sdk/util-dynamodb");
+const { ICallLogSearch } = require('./models/call-log-search');
+const { getClient } = require('./client');
+const util = require('./util');
+const moment = require('moment');
+
+
+getByDate = async (startDate, endDate) => {
+        const client = getClient();
+
+        try {
+
+            let searches = [];
+
+            let stDt, endDt
+
+            // startDate and endDate are not null
+            if(!(startDate === null) && !(endDate === null)){
+                stDt =  { S: moment(`${startDate} 00:00:00`).format()}
+                endDt = { S: moment(`${endDate} 23:59:00`).format()}
+            } else if(!(startDate === null) && endDate === null){ // If Only endDate is null use endDate now
+                stDt =  { S: moment(`${startDate} 00:00:00`).format()}
+                endDt = { S: moment().format()}
+            } else if(startDate === null && !(endDate === null)){ // If Only startDate is null use provided endDate and startDate 1 day before endDate
+                stDt =  { S: moment(endDate).subtract(1, 'days').format()}
+                endDt = { S: moment(`${endDate} 23:59:00`).format()}
+            } else if(startDate === null && endDate === null){ // If startDate and endDate are null use endDate now and startDate 1 day before endDate
+                console.log(moment().subtract(1, 'days').format())
+                stDt =  { S: moment().subtract(1, 'days').format()}
+                endDt = { S: moment().format()}
+            }
+
+            // If endDate.isBefore than startDate Throw an error
+            if(moment(endDt).isBefore(moment(stDt))){
+                throw new Error('Start Date Must to Be Before or Equal to End Date')
+            }
+
+            let attributes = {
+                ":gsi1pk": { S: this.getGSI1PK() },
+                ":startdate":stDt,
+                ":enddate": endDt
+            };
+           
+            const result = await client
+                .query({
+                    TableName: process.env.DB_TABLE_NAME,
+                    IndexName: "GSI1",
+                    KeyConditionExpression: "GSI1PK = :gsi1pk AND GSI1SK BETWEEN :startdate AND :enddate",
+                    ExpressionAttributeValues: attributes,
+                    ScanIndexForward: false
+                })
+                .promise();
+
+            searches = result.Items.map((item) => unmarshall(item))
+            return [null, searches ];
+```
