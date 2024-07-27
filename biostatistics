@@ -1,0 +1,983 @@
+### Question 1
+**Question:** What is the sensitivity of a diagnostic test if it correctly identifies 90 out of 100 patients with a disease and misses 10 patients who have the disease?
+
+**Options:**
+- a: 80%
+- b: 90%
+- c: 95%
+- d: 100%
+
+**Correct Option:** b
+
+**Explanation:** Sensitivity is calculated as the number of true positives divided by the sum of true positives and false negatives, then multiplied by 100. In this case, sensitivity = (90 / (90 + 10)) * 100 = 90%.
+
+### Question 2
+**Question:** A test for dental caries has a specificity of 85%. What does this mean?
+
+**Options:**
+- a: It correctly identifies 85% of those with dental caries.
+- b: It correctly identifies 85% of those without dental caries.
+- c: It misidentifies 15% of those without dental caries.
+- d: It misidentifies 15% of those with dental caries.
+
+**Correct Option:** b
+
+**Explanation:** Specificity measures the proportion of true negatives correctly identified by the test. Therefore, a specificity of 85% means the test correctly identifies 85% of individuals who do not have dental caries.
+
+### Question 3
+**Question:** What is the positive predictive value (PPV) of a test that correctly identifies 70 out of 100 positive results and misidentifies 30 negative results as positive?
+
+**Options:**
+- a: 60%
+- b: 70%
+- c: 80%
+- d: 90%
+
+**Correct Option:** b
+
+**Explanation:** PPV is calculated as the number of true positives divided by the sum of true positives and false positives, then multiplied by 100. Here, PPV = (70 / (70 + 30)) * 100 = 70%.
+
+### Question 4
+**Question:** In a study, the odds ratio for developing periodontitis among smokers compared to non-smokers is 2.5. What does this indicate?
+
+**Options:**
+- a: Smokers are 2.5 times more likely to develop periodontitis compared to non-smokers.
+- b: Smokers are 2.5 times less likely to develop periodontitis compared to non-smokers.
+- c: Non-smokers are 2.5 times more likely to develop periodontitis compared to smokers.
+- d: Non-smokers are 2.5 times less likely to develop periodontitis compared to smokers.
+
+**Correct Option:** a
+
+**Explanation:** An odds ratio of 2.5 indicates that smokers have 2.5 times the odds of developing periodontitis compared to non-smokers.
+
+### Question 5
+**Question:** What is the relative risk of developing dental caries if 30 out of 100 children who consume sugary snacks develop caries compared to 10 out of 100 children who do not consume sugary snacks?
+
+**Options:**
+- a: 2.0
+- b: 2.5
+- c: 3.0
+- d: 3.5
+
+**Correct Option:** c
+
+**Explanation:** Relative risk is calculated as the incidence rate of the exposed group divided by the incidence rate of the unexposed group. Here, RR = (30/100) / (10/100) = 3.0.
+
+### Question 6
+**Question:** A new diagnostic test for oral cancer has a PPV of 88%. What does this mean?
+
+**Options:**
+- a: 88% of those who test positive actually have oral cancer.
+- b: 88% of those who test positive do not have oral cancer.
+- c: 12% of those who test positive actually have oral cancer.
+- d: 12% of those who test positive do not have oral cancer.
+
+**Correct Option:** a
+
+**Explanation:** Positive Predictive Value (PPV) measures the proportion of true positives among all positive results. Thus, a PPV of 88% means that 88% of positive results are true positives.
+
+### Question 7
+**Question:** What is the Negative Predictive Value (NPV) of a test that correctly identifies 85 out of 100 negative results and misidentifies 15 positive results as negative?
+
+**Options:**
+- a: 75%
+- b: 85%
+- c: 90%
+- d: 95%
+
+**Correct Option:** b
+
+**Explanation:** NPV is calculated as the number of true negatives divided by the sum of true negatives and false negatives, then multiplied by 100. Here, NPV = (85 / (85 + 15)) * 100 = 85%.
+
+### Question 8
+**Question:** Which measure indicates the ability of a test to correctly identify those without the disease?
+
+**Options:**
+- a: Sensitivity
+- b: Specificity
+- c: Positive Predictive Value
+- d: Negative Predictive Value
+
+**Correct Option:** b
+
+**Explanation:** Specificity measures the proportion of true negatives that are correctly identified by the test.
+
+### Question 9
+**Question:** A new test for detecting early-stage gum disease has a sensitivity of 95% and a specificity of 80%. Which statement is correct?
+
+**Options:**
+- a: The test is more likely to produce false negatives than false positives.
+- b: The test is more likely to produce false positives than false negatives.
+- c: The test cannot produce false negatives.
+- d: The test cannot produce false positives.
+
+**Correct Option:** b
+
+**Explanation:** With high sensitivity (95%), the test correctly identifies most of the true positives, resulting in fewer false negatives. However, with lower specificity (80%), there are more false positives.
+
+### Question 10
+**Question:** What type of validity ensures that the study results can be generalized to other populations?
+
+**Options:**
+- a: Internal validity
+- b: External validity
+- c: Construct validity
+- d: Content validity
+
+**Correct Option:** b
+
+**Explanation:** External validity refers to the extent to which the results of a study can be generalized to other situations and to other people.
+
+### Question 11
+**Question:** In a clinical trial, the odds ratio for the effectiveness of a new dental sealant in preventing cavities is found to be 1.8. What does this suggest?
+
+**Options:**
+- a: It is 1.8 times more effective than the control.
+- b: It is 1.8 times less effective than the control.
+- c: It has no effect on preventing cavities.
+- d: It is equally effective as the control.
+
+**Correct Option:** a
+
+**Explanation:** An odds ratio of 1.8 indicates that the new dental sealant is 1.8 times more effective in preventing cavities compared to the control.
+
+### Question 12
+**Question:** Which of the following measures the consistency of a test to produce the same results under the same conditions?
+
+**Options:**
+- a: Validity
+- b: Reliability
+- c: Specificity
+- d: Sensitivity
+
+**Correct Option:** b
+
+**Explanation:** Reliability refers to the consistency of a measure. A test that yields consistent results under consistent conditions is considered reliable.
+
+### Question 13
+**Question:** If a diagnostic test for oral cancer has a sensitivity of 85% and a specificity of 90%, what can you infer?
+
+**Options:**
+- a: The test is very accurate.
+- b: The test is more specific than sensitive.
+- c: The test is more sensitive than specific.
+- d: The test cannot produce false negatives.
+
+**Correct Option:** b
+
+**Explanation:** The specificity (90%) is higher than the sensitivity (85%), indicating the test is more specific than sensitive.
+
+### Question 14
+**Question:** A study on the effects of fluoride in drinking water reports a relative risk of 0.6 for developing dental caries compared to a non-fluoridated area. What does this mean?
+
+**Options:**
+- a: Individuals in the fluoridated area are 40% less likely to develop dental caries.
+- b: Individuals in the fluoridated area are 60% less likely to develop dental caries.
+- c: Individuals in the fluoridated area are 40% more likely to develop dental caries.
+- d: Individuals in the fluoridated area are 60% more likely to develop dental caries.
+
+**Correct Option:** a
+
+**Explanation:** A relative risk of 0.6 means that individuals in the fluoridated area have a 40% reduced risk (1 - 0.6 = 0.4) of developing dental caries compared to those in the non-fluoridated area.
+
+### Question 15
+**Question:** What does a negative predictive value (NPV) of 95% indicate in a screening test for gum disease?
+
+**Options:**
+- a: 95% of those who test negative actually do not have gum disease.
+- b: 95% of those who test positive actually have gum disease.
+- c: 5% of those who test negative actually have gum disease.
+- d: 5% of those who test positive do not have gum disease.
+
+**Correct Option:** a
+
+**Explanation:** NPV indicates the proportion of true negatives among those who tested negative. An NPV of 95% means that 95% of negative results are true negatives.
+
+### Question 16
+**Question:** Which statistical measure is crucial for understanding a test's ability to correctly identify those with the disease?
+
+**Options:**
+- a: Specificity
+- b: Sensitivity
+- c: Positive Predictive
+
+ Value
+- d: Negative Predictive Value
+
+**Correct Option:** b
+
+**Explanation:** Sensitivity measures the proportion of true positives that are correctly identified by the test.
+
+### Question 17
+**Question:** What does an odds ratio (OR) of 0.7 for developing dental caries in children who use fluoride toothpaste indicate?
+
+**Options:**
+- a: Children who use fluoride toothpaste are 30% less likely to develop dental caries.
+- b: Children who use fluoride toothpaste are 70% less likely to develop dental caries.
+- c: Children who use fluoride toothpaste are 30% more likely to develop dental caries.
+- d: Children who use fluoride toothpaste are 70% more likely to develop dental caries.
+
+**Correct Option:** a
+
+**Explanation:** An OR of 0.7 indicates that children who use fluoride toothpaste have a 30% reduced odds (1 - 0.7 = 0.3) of developing dental caries compared to those who do not use fluoride toothpaste.
+
+### Question 18
+**Question:** What is the positive predictive value (PPV) if a test has 100 true positives and 20 false positives?
+
+**Options:**
+- a: 80%
+- b: 83.33%
+- c: 85%
+- d: 90%
+
+**Correct Option:** b
+
+**Explanation:** PPV is calculated as the number of true positives divided by the sum of true positives and false positives, then multiplied by 100. PPV = (100 / (100 + 20)) * 100 = 83.33%.
+
+### Question 19
+**Question:** In a study, the relative risk of developing gum disease in smokers compared to non-smokers is 2.0. What does this indicate?
+
+**Options:**
+- a: Smokers are twice as likely to develop gum disease as non-smokers.
+- b: Smokers are half as likely to develop gum disease as non-smokers.
+- c: Non-smokers are twice as likely to develop gum disease as smokers.
+- d: Non-smokers are half as likely to develop gum disease as smokers.
+
+**Correct Option:** a
+
+**Explanation:** A relative risk of 2.0 means that smokers have twice the risk of developing gum disease compared to non-smokers.
+
+### Question 20
+**Question:** What type of study is most effective at determining a cause-and-effect relationship?
+
+**Options:**
+- a: Case-control study
+- b: Cohort study
+- c: Randomized controlled trial
+- d: Cross-sectional study
+
+**Correct Option:** c
+
+**Explanation:** Randomized controlled trials (RCTs) are considered the gold standard for determining cause-and-effect relationships because they control for confounding variables and allow for random assignment.
+
+### Question 21
+**Question:** If a test for detecting oral cancer has a sensitivity of 90% and a specificity of 85%, which measure is more accurate?
+
+**Options:**
+- a: Sensitivity
+- b: Specificity
+- c: Both are equally accurate
+- d: Neither are accurate
+
+**Correct Option:** a
+
+**Explanation:** The sensitivity (90%) is higher than the specificity (85%), indicating that the test is more accurate in identifying true positives than true negatives.
+
+### Question 22
+**Question:** What does a specificity of 95% indicate about a diagnostic test for dental caries?
+
+**Options:**
+- a: 95% of those who test positive actually have dental caries.
+- b: 95% of those who test negative do not have dental caries.
+- c: 5% of those who test positive do not have dental caries.
+- d: 5% of those who test negative have dental caries.
+
+**Correct Option:** b
+
+**Explanation:** Specificity measures the proportion of true negatives correctly identified. A specificity of 95% means that 95% of negative results are true negatives.
+
+### Question 23
+**Question:** What does an odds ratio (OR) of 1.2 for the effectiveness of a new mouthwash in reducing plaque buildup indicate?
+
+**Options:**
+- a: The mouthwash is 1.2 times more effective than not using it.
+- b: The mouthwash is 1.2 times less effective than not using it.
+- c: The mouthwash has no effect on plaque buildup.
+- d: The mouthwash is equally effective as not using it.
+
+**Correct Option:** a
+
+**Explanation:** An OR of 1.2 indicates that the mouthwash is 1.2 times more effective in reducing plaque buildup compared to not using it.
+
+### Question 24
+**Question:** A new diagnostic test for periodontal disease has an NPV of 92%. What does this mean?
+
+**Options:**
+- a: 92% of those who test negative actually do not have periodontal disease.
+- b: 92% of those who test positive actually have periodontal disease.
+- c: 8% of those who test negative actually have periodontal disease.
+- d: 8% of those who test positive do not have periodontal disease.
+
+**Correct Option:** a
+
+**Explanation:** NPV measures the proportion of true negatives among those who tested negative. An NPV of 92% means that 92% of negative results are true negatives.
+
+### Question 25
+**Question:** What type of study provides the highest level of evidence for the effectiveness of a new dental treatment?
+
+**Options:**
+- a: Case report
+- b: Cohort study
+- c: Randomized controlled trial
+- d: Cross-sectional study
+
+**Correct Option:** c
+
+**Explanation:** Randomized controlled trials (RCTs) provide the highest level of evidence for the effectiveness of a treatment due to their ability to control for confounding variables and use random assignment.
+
+### Question 26
+**Question:** What is the positive predictive value (PPV) if a test has 120 true positives and 30 false positives?
+
+**Options:**
+- a: 75%
+- b: 80%
+- c: 85%
+- d: 90%
+
+**Correct Option:** c
+
+**Explanation:** PPV is calculated as the number of true positives divided by the sum of true positives and false positives, then multiplied by 100. PPV = (120 / (120 + 30)) * 100 = 85%.
+
+### Question 27
+**Question:** In a study, the relative risk of developing oral cancer in tobacco users compared to non-users is 3.0. What does this mean?
+
+**Options:**
+- a: Tobacco users are three times more likely to develop oral cancer than non-users.
+- b: Tobacco users are three times less likely to develop oral cancer than non-users.
+- c: Non-users are three times more likely to develop oral cancer than tobacco users.
+- d: Non-users are three times less likely to develop oral cancer than tobacco users.
+
+**Correct Option:** a
+
+**Explanation:** A relative risk of 3.0 indicates that tobacco users have three times the risk of developing oral cancer compared to non-users.
+
+### Question 28
+**Question:** Which measure indicates the proportion of true positives among all positive results?
+
+**Options:**
+- a: Sensitivity
+- b: Specificity
+- c: Positive Predictive Value
+- d: Negative Predictive Value
+
+**Correct Option:** c
+
+**Explanation:** Positive Predictive Value (PPV) measures the proportion of true positives among all positive results.
+
+### Question 29
+**Question:** If a test for detecting dental caries has a specificity of 90% and a sensitivity of 85%, which measure is more accurate?
+
+**Options:**
+- a: Sensitivity
+- b: Specificity
+- c: Both are equally accurate
+- d: Neither are accurate
+
+**Correct Option:** b
+
+**Explanation:** The specificity (90%) is higher than the sensitivity (85%), indicating that the test is more accurate in identifying true negatives than true positives.
+
+### Question 30
+**Question:** What is the sensitivity of a test that correctly identifies 95 out of 100 patients with a disease and misses 5 patients who have the disease?
+
+**Options:**
+- a: 80%
+- b: 90%
+- c: 95%
+- d: 100%
+
+**Correct Option:** c
+
+**Explanation:** Sensitivity is calculated as the number of true positives divided by the sum of true positives and false negatives, then multiplied by 100. Sensitivity = (95 / (95 + 5)) * 100 = 95%.
+
+### Question 31
+**Question:** A new diagnostic test for dental caries has a PPV of 87%. What does this mean?
+
+**Options:**
+- a: 87% of those who test positive actually have dental caries.
+- b: 87% of those who test positive do not have dental caries.
+- c: 13% of those who test positive actually have dental caries.
+- d: 13% of those who test positive do not have dental caries.
+
+**Correct Option:** a
+
+**Explanation:** Positive Predictive Value (PPV) measures the proportion of true positives among all positive results. A PPV of 87% means that 87% of positive results are true positives.
+
+### Question 32
+**Question:** What does an odds ratio (OR) of 2.0 for developing periodontal disease in smokers indicate?
+
+**Options:**
+- a: Smokers are twice as likely to develop periodontal disease compared to non-smokers.
+- b: Smokers are half as likely to develop periodontal disease compared to non-smokers.
+- c: Non-smokers are twice as likely to develop periodontal disease compared to smokers.
+- d: Non-smokers are half as likely to develop periodontal disease compared to smokers.
+
+**Correct Option:** a
+
+**Explanation:** An OR of 
+
+2.0 indicates that smokers have twice the odds of developing periodontal disease compared to non-smokers.
+
+### Question 33
+**Question:** A new test for detecting oral cancer has a specificity of 92%. What does this mean?
+
+**Options:**
+- a: 92% of those who test positive actually have oral cancer.
+- b: 92% of those who test negative do not have oral cancer.
+- c: 8% of those who test positive actually have oral cancer.
+- d: 8% of those who test negative have oral cancer.
+
+**Correct Option:** b
+
+**Explanation:** Specificity measures the proportion of true negatives correctly identified. A specificity of 92% means that 92% of negative results are true negatives.
+
+### Question 34
+**Question:** What does a negative predictive value (NPV) of 90% indicate in a screening test for dental caries?
+
+**Options:**
+- a: 90% of those who test negative actually do not have dental caries.
+- b: 90% of those who test positive actually have dental caries.
+- c: 10% of those who test negative actually have dental caries.
+- d: 10% of those who test positive do not have dental caries.
+
+**Correct Option:** a
+
+**Explanation:** NPV measures the proportion of true negatives among those who tested negative. An NPV of 90% means that 90% of negative results are true negatives.
+
+### Question 35
+**Question:** What is the relative risk of developing gum disease if 40 out of 100 smokers develop gum disease compared to 20 out of 100 non-smokers?
+
+**Options:**
+- a: 1.5
+- b: 2.0
+- c: 2.5
+- d: 3.0
+
+**Correct Option:** b
+
+**Explanation:** Relative risk is calculated as the incidence rate of the exposed group divided by the incidence rate of the unexposed group. Here, RR = (40/100) / (20/100) = 2.0.
+
+### Question 36
+**Question:** Which measure indicates the proportion of true negatives among all negative results?
+
+**Options:**
+- a: Sensitivity
+- b: Specificity
+- c: Positive Predictive Value
+- d: Negative Predictive Value
+
+**Correct Option:** d
+
+**Explanation:** Negative Predictive Value (NPV) measures the proportion of true negatives among all negative results.
+
+### Question 37
+**Question:** If a diagnostic test for oral cancer has a sensitivity of 85% and a specificity of 90%, which measure is more accurate?
+
+**Options:**
+- a: Sensitivity
+- b: Specificity
+- c: Both are equally accurate
+- d: Neither are accurate
+
+**Correct Option:** b
+
+**Explanation:** The specificity (90%) is higher than the sensitivity (85%), indicating that the test is more accurate in identifying true negatives than true positives.
+
+### Question 38
+**Question:** What is the specificity of a test that correctly identifies 95 out of 100 negative results and misidentifies 5 positive results as negative?
+
+**Options:**
+- a: 80%
+- b: 90%
+- c: 95%
+- d: 100%
+
+**Correct Option:** c
+
+**Explanation:** Specificity is calculated as the number of true negatives divided by the sum of true negatives and false positives, then multiplied by 100. Specificity = (95 / (95 + 5)) * 100 = 95%.
+
+### Question 39
+**Question:** A new diagnostic test for dental caries has a specificity of 88%. What does this mean?
+
+**Options:**
+- a: 88% of those who test positive actually have dental caries.
+- b: 88% of those who test negative do not have dental caries.
+- c: 12% of those who test positive actually have dental caries.
+- d: 12% of those who test negative have dental caries.
+
+**Correct Option:** b
+
+**Explanation:** Specificity measures the proportion of true negatives correctly identified. A specificity of 88% means that 88% of negative results are true negatives.
+
+### Question 40
+**Question:** What does an odds ratio (OR) of 1.5 for developing oral cancer in heavy drinkers indicate?
+
+**Options:**
+- a: Heavy drinkers are 1.5 times more likely to develop oral cancer compared to non-drinkers.
+- b: Heavy drinkers are 1.5 times less likely to develop oral cancer compared to non-drinkers.
+- c: Non-drinkers are 1.5 times more likely to develop oral cancer compared to heavy drinkers.
+- d: Non-drinkers are 1.5 times less likely to develop oral cancer compared to heavy drinkers.
+
+**Correct Option:** a
+
+**Explanation:** An OR of 1.5 indicates that heavy drinkers have 1.5 times the odds of developing oral cancer compared to non-drinkers.
+
+### Question 41
+**Question:** A new test for detecting early-stage gum disease has a sensitivity of 90%. What does this mean?
+
+**Options:**
+- a: 90% of those who test positive actually have gum disease.
+- b: 90% of those who test negative do not have gum disease.
+- c: 10% of those who test positive actually have gum disease.
+- d: 10% of those who test negative have gum disease.
+
+**Correct Option:** a
+
+**Explanation:** Sensitivity measures the proportion of true positives correctly identified. A sensitivity of 90% means that 90% of positive results are true positives.
+
+### Question 42
+**Question:** What does a positive predictive value (PPV) of 85% indicate in a screening test for dental caries?
+
+**Options:**
+- a: 85% of those who test positive actually have dental caries.
+- b: 85% of those who test positive do not have dental caries.
+- c: 15% of those who test positive actually have dental caries.
+- d: 15% of those who test positive do not have dental caries.
+
+**Correct Option:** a
+
+**Explanation:** PPV measures the proportion of true positives among those who tested positive. A PPV of 85% means that 85% of positive results are true positives.
+
+### Question 43
+**Question:** What is the relative risk of developing dental caries if 50 out of 100 children who consume sugary snacks develop caries compared to 20 out of 100 children who do not consume sugary snacks?
+
+**Options:**
+- a: 2.0
+- b: 2.5
+- c: 3.0
+- d: 3.5
+
+**Correct Option:** b
+
+**Explanation:** Relative risk is calculated as the incidence rate of the exposed group divided by the incidence rate of the unexposed group. Here, RR = (50/100) / (20/100) = 2.5.
+
+### Question 44
+**Question:** Which measure indicates the ability of a test to correctly identify those with the disease?
+
+**Options:**
+- a: Sensitivity
+- b: Specificity
+- c: Positive Predictive Value
+- d: Negative Predictive Value
+
+**Correct Option:** a
+
+**Explanation:** Sensitivity measures the proportion of true positives that are correctly identified by the test.
+
+### Question 45
+**Question:** What does an odds ratio (OR) of 0.8 for developing dental caries in children who use fluoride toothpaste indicate?
+
+**Options:**
+- a: Children who use fluoride toothpaste are 20% less likely to develop dental caries.
+- b: Children who use fluoride toothpaste are 80% less likely to develop dental caries.
+- c: Children who use fluoride toothpaste are 20% more likely to develop dental caries.
+- d: Children who use fluoride toothpaste are 80% more likely to develop dental caries.
+
+**Correct Option:** a
+
+**Explanation:** An OR of 0.8 indicates that children who use fluoride toothpaste have a 20% reduced odds (1 - 0.8 = 0.2) of developing dental caries compared to those who do not use fluoride toothpaste.
+
+### Question 46
+**Question:** A new diagnostic test for periodontal disease has a sensitivity of 88%. What does this mean?
+
+**Options:**
+- a: 88% of those who test positive actually have periodontal disease.
+- b: 88% of those who test negative do not have periodontal disease.
+- c: 12% of those who test positive actually have periodontal disease.
+- d: 12% of those who test negative have periodontal disease.
+
+**Correct Option:** a
+
+**Explanation:** Sensitivity measures the proportion of true positives correctly identified. A sensitivity of 88% means that 88% of positive results are true positives.
+
+### Question 47
+**Question:** What does a negative predictive value (NPV) of 93% indicate in a screening test for oral cancer?
+
+**Options:**
+- a: 93% of those who test negative actually do not have oral cancer.
+- b: 93% of those who test positive actually have oral cancer.
+- c: 7% of those who test negative actually have oral cancer.
+- d: 7% of those who test positive do not have oral cancer.
+
+**Correct Option:** a
+
+**Explanation:** NPV measures the proportion of true negatives among those who tested negative. An NPV of 93% means that 93% of negative results are true negatives.
+
+### Question 48
+**Question:** What is the specificity of a test that correctly identifies 90 out of 100 negative results and misidentifies 10 positive results as negative?
+
+**Options:**
+
+
+- a: 80%
+- b: 90%
+- c: 95%
+- d: 100%
+
+**Correct Option:** b
+
+**Explanation:** Specificity is calculated as the number of true negatives divided by the sum of true negatives and false positives, then multiplied by 100. Specificity = (90 / (90 + 10)) * 100 = 90%.
+
+### Question 49
+**Question:** A new diagnostic test for oral cancer has a PPV of 89%. What does this mean?
+
+**Options:**
+- a: 89% of those who test positive actually have oral cancer.
+- b: 89% of those who test positive do not have oral cancer.
+- c: 11% of those who test positive actually have oral cancer.
+- d: 11% of those who test positive do not have oral cancer.
+
+**Correct Option:** a
+
+**Explanation:** Positive Predictive Value (PPV) measures the proportion of true positives among all positive results. A PPV of 89% means that 89% of positive results are true positives.
+
+### Question 50
+**Question:** What does an odds ratio (OR) of 1.3 for the effectiveness of a new dental sealant in preventing cavities indicate?
+
+**Options:**
+- a: The dental sealant is 1.3 times more effective than not using it.
+- b: The dental sealant is 1.3 times less effective than not using it.
+- c: The dental sealant has no effect on preventing cavities.
+- d: The dental sealant is equally effective as not using it.
+
+**Correct Option:** a
+
+**Explanation:** An OR of 1.3 indicates that the dental sealant is 1.3 times more effective in preventing cavities compared to not using it.
+
+### Question 51
+**Question:** What is the sensitivity of a test that correctly identifies 80 out of 100 patients with a disease and misses 20 patients who have the disease?
+
+**Options:**
+- a: 80%
+- b: 85%
+- c: 90%
+- d: 95%
+
+**Correct Option:** a
+
+**Explanation:** Sensitivity is calculated as the number of true positives divided by the sum of true positives and false negatives, then multiplied by 100. Sensitivity = (80 / (80 + 20)) * 100 = 80%.
+
+### Question 52
+**Question:** A new diagnostic test for gum disease has a specificity of 90%. What does this mean?
+
+**Options:**
+- a: 90% of those who test positive actually have gum disease.
+- b: 90% of those who test negative do not have gum disease.
+- c: 10% of those who test positive actually have gum disease.
+- d: 10% of those who test negative have gum disease.
+
+**Correct Option:** b
+
+**Explanation:** Specificity measures the proportion of true negatives correctly identified. A specificity of 90% means that 90% of negative results are true negatives.
+
+### Question 53
+**Question:** What does a positive predictive value (PPV) of 80% indicate in a screening test for periodontal disease?
+
+**Options:**
+- a: 80% of those who test positive actually have periodontal disease.
+- b: 80% of those who test positive do not have periodontal disease.
+- c: 20% of those who test positive actually have periodontal disease.
+- d: 20% of those who test positive do not have periodontal disease.
+
+**Correct Option:** a
+
+**Explanation:** PPV measures the proportion of true positives among those who tested positive. A PPV of 80% means that 80% of positive results are true positives.
+
+### Question 54
+**Question:** What is the relative risk of developing oral cancer if 25 out of 100 smokers develop oral cancer compared to 5 out of 100 non-smokers?
+
+**Options:**
+- a: 2.0
+- b: 2.5
+- c: 3.0
+- d: 5.0
+
+**Correct Option:** d
+
+**Explanation:** Relative risk is calculated as the incidence rate of the exposed group divided by the incidence rate of the unexposed group. Here, RR = (25/100) / (5/100) = 5.0.
+
+### Question 55
+**Question:** Which measure indicates the proportion of true positives among all positive results?
+
+**Options:**
+- a: Sensitivity
+- b: Specificity
+- c: Positive Predictive Value
+- d: Negative Predictive Value
+
+**Correct Option:** c
+
+**Explanation:** Positive Predictive Value (PPV) measures the proportion of true positives among all positive results.
+
+### Question 56
+**Question:** If a diagnostic test for oral cancer has a sensitivity of 92% and a specificity of 88%, which measure is more accurate?
+
+**Options:**
+- a: Sensitivity
+- b: Specificity
+- c: Both are equally accurate
+- d: Neither are accurate
+
+**Correct Option:** a
+
+**Explanation:** The sensitivity (92%) is higher than the specificity (88%), indicating that the test is more accurate in identifying true positives than true negatives.
+
+### Question 57
+**Question:** What is the specificity of a test that correctly identifies 85 out of 100 negative results and misidentifies 15 positive results as negative?
+
+**Options:**
+- a: 80%
+- b: 85%
+- c: 90%
+- d: 95%
+
+**Correct Option:** b
+
+**Explanation:** Specificity is calculated as the number of true negatives divided by the sum of true negatives and false positives, then multiplied by 100. Specificity = (85 / (85 + 15)) * 100 = 85%.
+
+### Question 58
+**Question:** A new diagnostic test for oral cancer has a specificity of 94%. What does this mean?
+
+**Options:**
+- a: 94% of those who test positive actually have oral cancer.
+- b: 94% of those who test negative do not have oral cancer.
+- c: 6% of those who test positive actually have oral cancer.
+- d: 6% of those who test negative have oral cancer.
+
+**Correct Option:** b
+
+**Explanation:** Specificity measures the proportion of true negatives correctly identified. A specificity of 94% means that 94% of negative results are true negatives.
+
+### Question 59
+**Question:** What does an odds ratio (OR) of 1.4 for the effectiveness of a new toothpaste in preventing cavities indicate?
+
+**Options:**
+- a: The toothpaste is 1.4 times more effective than not using it.
+- b: The toothpaste is 1.4 times less effective than not using it.
+- c: The toothpaste has no effect on preventing cavities.
+- d: The toothpaste is equally effective as not using it.
+
+**Correct Option:** a
+
+**Explanation:** An OR of 1.4 indicates that the toothpaste is 1.4 times more effective in preventing cavities compared to not using it.
+
+### Question 60
+**Question:** What is the sensitivity of a test that correctly identifies 85 out of 100 patients with a disease and misses 15 patients who have the disease?
+
+**Options:**
+- a: 80%
+- b: 85%
+- c: 90%
+- d: 95%
+
+**Correct Option:** b
+
+**Explanation:** Sensitivity is calculated as the number of true positives divided by the sum of true positives and false negatives, then multiplied by 100. Sensitivity = (85 / (85 + 15)) * 100 = 85%.
+
+### Question 61
+**Question:** A new diagnostic test for gum disease has a PPV of 90%. What does this mean?
+
+**Options:**
+- a: 90% of those who test positive actually have gum disease.
+- b: 90% of those who test positive do not have gum disease.
+- c: 10% of those who test positive actually have gum disease.
+- d: 10% of those who test positive do not have gum disease.
+
+**Correct Option:** a
+
+**Explanation:** Positive Predictive Value (PPV) measures the proportion of true positives among all positive results. A PPV of 90% means that 90% of positive results are true positives.
+
+### Question 62
+**Question:** What does a negative predictive value (NPV) of 92% indicate in a screening test for dental caries?
+
+**Options:**
+- a: 92% of those who test negative actually do not have dental caries.
+- b: 92% of those who test positive actually have dental caries.
+- c: 8% of those who test negative actually have dental caries.
+- d: 8% of those who test positive do not have dental caries.
+
+**Correct Option:** a
+
+**Explanation:** NPV measures the proportion of true negatives among those who tested negative. An NPV of 92% means that 92% of negative results are true negatives.
+
+### Question 63
+**Question:** What is the relative risk of developing periodontal disease if 60 out of 100 smokers develop periodontal disease compared to 30 out of 100 non-smokers?
+
+**Options:**
+- a: 1.5
+- b: 2.0
+- c: 2.5
+- d: 3.0
+
+**Correct Option:** b
+
+**Explanation:** Relative risk is calculated as the incidence rate of the exposed group divided by the incidence rate of the unexposed group. Here, RR = (60/100) / (30/100) = 2.0.
+
+### Question 64
+**Question:** Which measure indicates the proportion of true negatives among all negative results?
+
+**Options:**
+- a: Sensitivity
+
+
+- b: Specificity
+- c: Positive Predictive Value
+- d: Negative Predictive Value
+
+**Correct Option:** d
+
+**Explanation:** Negative Predictive Value (NPV) measures the proportion of true negatives among all negative results.
+
+### Question 65
+**Question:** If a diagnostic test for oral cancer has a sensitivity of 89% and a specificity of 91%, which measure is more accurate?
+
+**Options:**
+- a: Sensitivity
+- b: Specificity
+- c: Both are equally accurate
+- d: Neither are accurate
+
+**Correct Option:** b
+
+**Explanation:** The specificity (91%) is higher than the sensitivity (89%), indicating that the test is more accurate in identifying true negatives than true positives.
+
+### Question 66
+**Question:** What is the specificity of a test that correctly identifies 95 out of 100 negative results and misidentifies 5 positive results as negative?
+
+**Options:**
+- a: 80%
+- b: 90%
+- c: 95%
+- d: 100%
+
+**Correct Option:** c
+
+**Explanation:** Specificity is calculated as the number of true negatives divided by the sum of true negatives and false positives, then multiplied by 100. Specificity = (95 / (95 + 5)) * 100 = 95%.
+
+### Question 67
+**Question:** A new diagnostic test for oral cancer has a specificity of 93%. What does this mean?
+
+**Options:**
+- a: 93% of those who test positive actually have oral cancer.
+- b: 93% of those who test negative do not have oral cancer.
+- c: 7% of those who test positive actually have oral cancer.
+- d: 7% of those who test negative have oral cancer.
+
+**Correct Option:** b
+
+**Explanation:** Specificity measures the proportion of true negatives correctly identified. A specificity of 93% means that 93% of negative results are true negatives.
+
+### Question 68
+**Question:** What does an odds ratio (OR) of 1.1 for the effectiveness of a new dental treatment in preventing cavities indicate?
+
+**Options:**
+- a: The dental treatment is 1.1 times more effective than not using it.
+- b: The dental treatment is 1.1 times less effective than not using it.
+- c: The dental treatment has no effect on preventing cavities.
+- d: The dental treatment is equally effective as not using it.
+
+**Correct Option:** a
+
+**Explanation:** An OR of 1.1 indicates that the dental treatment is 1.1 times more effective in preventing cavities compared to not using it.
+
+### Question 69
+**Question:** What is the sensitivity of a test that correctly identifies 90 out of 100 patients with a disease and misses 10 patients who have the disease?
+
+**Options:**
+- a: 80%
+- b: 85%
+- c: 90%
+- d: 95%
+
+**Correct Option:** c
+
+**Explanation:** Sensitivity is calculated as the number of true positives divided by the sum of true positives and false negatives, then multiplied by 100. Sensitivity = (90 / (90 + 10)) * 100 = 90%.
+
+### Question 70
+**Question:** A new diagnostic test for gum disease has a specificity of 91%. What does this mean?
+
+**Options:**
+- a: 91% of those who test positive actually have gum disease.
+- b: 91% of those who test negative do not have gum disease.
+- c: 9% of those who test positive actually have gum disease.
+- d: 9% of those who test negative have gum disease.
+
+**Correct Option:** b
+
+**Explanation:** Specificity measures the proportion of true negatives correctly identified. A specificity of 91% means that 91% of negative results are true negatives.
+
+### Question 71
+**Question:** What does a positive predictive value (PPV) of 84% indicate in a screening test for dental caries?
+
+**Options:**
+- a: 84% of those who test positive actually have dental caries.
+- b: 84% of those who test positive do not have dental caries.
+- c: 16% of those who test positive actually have dental caries.
+- d: 16% of those who test positive do not have dental caries.
+
+**Correct Option:** a
+
+**Explanation:** PPV measures the proportion of true positives among those who tested positive. A PPV of 84% means that 84% of positive results are true positives.
+
+### Question 72
+**Question:** What is the relative risk of developing oral cancer if 40 out of 100 smokers develop oral cancer compared to 10 out of 100 non-smokers?
+
+**Options:**
+- a: 2.0
+- b: 3.0
+- c: 4.0
+- d: 5.0
+
+**Correct Option:** c
+
+**Explanation:** Relative risk is calculated as the incidence rate of the exposed group divided by the incidence rate of the unexposed group. Here, RR = (40/100) / (10/100) = 4.0.
+
+### Question 73
+**Question:** Which measure indicates the ability of a test to correctly identify those without the disease?
+
+**Options:**
+- a: Sensitivity
+- b: Specificity
+- c: Positive Predictive Value
+- d: Negative Predictive Value
+
+**Correct Option:** b
+
+**Explanation:** Specificity measures the proportion of true negatives that are correctly identified by the test.
+
+### Question 74
+**Question:** If a diagnostic test for oral cancer has a sensitivity of 87% and a specificity of 92%, which measure is more accurate?
+
+**Options:**
+- a: Sensitivity
+- b: Specificity
+- c: Both are equally accurate
+- d: Neither are accurate
+
+**Correct Option:** b
+
+**Explanation:** The specificity (92%) is higher than the sensitivity (87%), indicating that the test is more accurate in identifying true negatives than true positives.
+
+### Question 75
+**Question:** What is the specificity of a test that correctly identifies 88 out of 100 negative results and misidentifies 12 positive results as negative?
+
+**Options:**
+- a: 80%
+- b: 85%
+- c: 88%
+- d: 90%
+
+**Correct Option:** c
+
+**Explanation:** Specificity is calculated as the number of true negatives divided by the sum of true negatives and false positives, then multiplied by 100. Specificity = (88 / (88 + 12)) * 100 = 88%.
+```
