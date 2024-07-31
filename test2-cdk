@@ -1,0 +1,27 @@
+getByPhone = async (fromNumber = null, toNumber = null, startDate = null, endDate = null) => {
+        const client = getClient();
+
+        try {
+            const index = fromNumber ? 2 : 3;
+            let searches = [];
+            let attributes = {
+                ":gsipk": { S: (fromNumber ? this.getGSI2PK() : this.getGSI3PK()) },
+                ...(fromNumber ? { ":from": { S: fromNumber } } : { }),
+                ...(!fromNumber && toNumber ? { ":to": { S: toNumber } } : { })
+            };
+            const result = await client
+                .query({
+                    TableName: process.env.DB_TABLE_NAME,
+                    IndexName: `GSI${index}`,
+                    KeyConditionExpression: `GSI${index}PK = :gsipk AND begins_with(GSI${index}SK, :${(fromNumber ? 'from' : 'to')})`,
+                    ExpressionAttributeValues: attributes,
+                    ScanIndexForward: false
+                })
+                .promise();
+
+            searches = result.Items.map((item) => unmarshall(item))
+            return [null, searches ];
+        } catch (error) {
+            return [error];
+        }
+    }
