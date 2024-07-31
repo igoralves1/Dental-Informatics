@@ -1,14 +1,40 @@
-getByPhone = async (fromNumber = null, toNumber = null, startDate = null, endDate = null) => {
+getByPhone = async (fromNumber = null, toNumber = null, startDate = null, endDate = null, size = null) => {
         const client = getClient();
 
         try {
             const index = fromNumber ? 2 : 3;
             let searches = [];
+
+            let stDt, endDt
+
+            if(startDate && endDate){
+                stDt =  { S: moment(`${startDate} 00:00:00`).format()}
+                endDt = { S: moment(`${endDate} 23:59:00`).format()}
+            } else if(startDate && !endDate){
+                stDt =  { S: moment(`${startDate} 00:00:00`).format()}
+                endDt = { S: moment().format()}
+            } else if(!startDate && endDate){ 
+                stDt =  { S: moment(endDate).subtract(1, 'days').format()}
+                endDt = { S: moment(`${endDate} 23:59:00`).format()}
+            } else if(!startDate && !endDate){
+                stDt =  { S: moment().subtract(1, 'days').format()}
+                endDt = { S: moment().format()}
+            }
+
+            if(!size){
+                size = 50
+            }
+
             let attributes = {
                 ":gsipk": { S: (fromNumber ? this.getGSI2PK() : this.getGSI3PK()) },
                 ...(fromNumber ? { ":from": { S: fromNumber } } : { }),
-                ...(!fromNumber && toNumber ? { ":to": { S: toNumber } } : { })
+                ...(!fromNumber && toNumber ? { ":to": { S: toNumber } } : { }),
+                ":startdate":stDt,
+                ":enddate": endDt,
+                ":size": size
             };
+
+            // just implement startdate, enddate, size in the query and implement pagination process
             const result = await client
                 .query({
                     TableName: process.env.DB_TABLE_NAME,
