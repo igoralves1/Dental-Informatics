@@ -1,0 +1,17 @@
+let attributes = {
+                ":gsipk": { S: this.getGSI4PK() },
+                ":id": { S: id },
+                ":startdate":stDt,
+                ":enddate": endDt
+            };
+            
+            const result = await client
+                .query({
+                    TableName: process.env.DB_TABLE_NAME,
+                    IndexName: `GSI${index}`,
+                    KeyConditionExpression: `GSI${index}PK = :gsipk BETWEEN :startdate AND :enddate`,
+                    FilterExpression: `begins_with(GSI${index}SK, :id)`,
+                    ExpressionAttributeValues: attributes,
+                    ScanIndexForward: false
+                })
+                .promise();
