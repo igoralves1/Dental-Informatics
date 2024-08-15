@@ -1,0 +1,350 @@
+const { unmarshall } = require("@aws-sdk/util-dynamodb");
+const { ICallLogSearch } = require('./models/call-log-search');
+const { getClient } = require('./client');
+const { IResponse } = require('./models/response');
+const util = require('./util');
+const moment = require('moment');
+const {
+    CALL_LOG_PK_PREFIX,
+    SEARCH_SK_PREFIX,
+    SEARCH_DATE_PK_PREFIX,
+    SEARCH_FROM_PK_PREFIX,
+    SEARCH_TO_PK_PREFIX,
+    SEARCH_ID_PK_PREFIX
+} = require('./constants');
+const { Artifact } = require("aws-sdk");
+const { at } = require("lodash");
+
+class CallLogSearch extends ICallLogSearch {
+    constructor (type,
+                 flowSid,
+                 executionId,
+                 flowName = '',
+                 time = '',
+                 id = '',
+                 fromNumber = '',
+                 toNumber = '',
+                 direction = '',
+                 status = '',
+                 duration = 0,
+                 reason = '',
+                 callUrl = '') {
+        super();
+
+        this.type = type,
+        this.flowSid = flowSid;
+        this.flowName = flowName;
+        this.executionId = executionId;
+        this.time = time;
+        this.id = id;
+        this.fromNumber = fromNumber;
+        this.toNumber = toNumber;
+        this.direction = direction;
+        this.status = status;
+        this.duration = duration;
+        this.reason = reason;
+        this.callUrl = callUrl;        
+        this.pk = this.setPK();
+        this.sk = this.setSK();
+    }
+
+    static fromItem(item) {
+        if (!item) throw new Error("No Item!");
+
+        return new CallLogSearch (item.type.S,
+                                  item.flowSid.S,
+                                  item.executionId.S,
+                                  item.flowName.S,
+                                  item.time.S,
+                                  item.id.S,
+                                  item.fromNumber.S,
+                                  item.toNumber.S,
+                                  item.direction.S,
+                                  item.status.S,
+                                  item.duration.N,
+                                  item.reason.S,
+                                  item.callUrl.S);
+    }
+
+    toItem() {
+        return {
+            ...this.keys(),
+            flowSid: { S: this.flowSid },
+            executionId: { S: this.executionId },
+            flowName: { S: this.flowName },
+            time: { S: this.time },
+            id: { S: this.id },
+            fromNumber: { S: this.fromNumber },
+            toNumber: { S: this.toNumber },
+            direction: { S: this.direction },
+            status: { S: this.status },
+            duration: { N: this.duration.toString() },
+            callUrl: { S: this.callUrl },
+            reason: { S: this.reason },
+            GSI1PK: { S: this.getGSI1PK()},
+            GSI1SK: { S: this.getGSI1SK()},
+            GSI2PK: { S: this.getGSI2PK()},
+            ...(this.fromNumber ? {GSI2SK: { S: this.getGSI2SK() }} : {}),
+            GSI3PK: { S: this.getGSI3PK()},
+            ...(this.toNumber ? {GSI3SK: { S: this.getGSI3SK() }} : {}),
+            GSI4PK: { S: this.getGSI4PK()},
+            ...(this.id ? {GSI4SK: { S: this.getGSI4SK() }} : {})
+        }
+    }
+
+    add = async (log) => {
+        const client = getClient();
+
+        try {
+            const result = await client
+                .putItem({
+                    TableName: process.env.DB_TABLE_NAME,
+                    Item: log.toItem()
+                }).promise();
+
+            return [null, result];
+        } catch (error) {
+            return [error];
+        }
+    }
+
+    get = async () => {
+        const client = getClient();
+
+        try {
+            const result = await client
+                                    .getItem({
+                                        TableName: process.env.DB_TABLE_NAME,
+                                        Key: this.keys()
+                                    })
+                                    .promise();
+
+            return [null, unmarshall(result.Item || {}) ];
+        } catch (error) {
+            return [error];
+        }
+    }
+
+    getByDate = async (startDate, endDate, status=null, direction=null, size=null, page=null) => {
+        const client = getClient();
+        
+        try {
+            const pageSize = size ? size : 50
+            let limit = Number(pageSize);
+            let attributes, result, queryObj
+
+            let lastEvaluatedKey = undefined
+            if(page){
+                lastEvaluatedKey = JSON.parse(atob(page))
+            }
+
+            let stDt, endDt
+
+            if(startDate && endDate){
+                stDt =  { S: moment(`${startDate} 00:00:00`).format()}
+                endDt = { S: moment(`${endDate} 23:59:00`).format()}
+            } else if(startDate && !endDate){
+                stDt =  { S: moment(`${startDate} 00:00:00`).format()}
+                endDt = { S: moment().format()}
+            } else if(!startDate && endDate){ 
+                stDt =  { S: moment(endDate).subtract(1, 'days').format()}
+                endDt = { S: moment(`${endDate} 23:59:00`).format()}
+            } else if(!startDate && !endDate){
+                stDt =  { S: moment().subtract(1, 'days').format()}
+                endDt = { S: moment().endOf('day').format()}
+            }
+            
+            if(moment(endDate).isBefore(moment(startDate))){
+                throw new Error('Start Date Must to Be Before or Equal to End Date')
+            }
+      
+            attributes = {
+                ":gsi1pk": { S: this.getGSI1PK() },
+                ":startdate":stDt,
+                ":enddate": endDt
+            };
+            queryObj = {
+                "TableName": process.env.DB_TABLE_NAME,
+                "IndexName": "GSI1",
+                "KeyConditionExpression": "GSI1PK = :gsi1pk AND GSI1SK BETWEEN :startdate AND :enddate",
+                "ExpressionAttributeValues": attributes,
+                "ScanIndexForward": false,
+                "ExclusiveStartKey": lastEvaluatedKey ? lastEvaluatedKey : undefined,
+                "Limit": limit, // Limit number of items scanned
+            }
+
+            if(status && !direction){
+                attributes[":status"] = { S: status },
+                queryObj["FilterExpression"] = "#stat = :status",
+                queryObj["ExpressionAttributeNames"] = {"#stat" : "status"}
+            } else if(direction && !status){
+                attributes[":direction"] = { S: direction },
+                queryObj["FilterExpression"] = "#direction = :direction",
+                queryObj["ExpressionAttributeNames"] = {"#direction" : "direction"}
+            } else if(direction && status){
+                attributes[":direction"] = { S: direction },
+                attributes[":status"] = { S: status },
+                queryObj["FilterExpression"] = "#direction = :direction AND #stat = :status",
+                queryObj["ExpressionAttributeNames"] = {"#direction" : "direction",  "#stat" : "status"}
+            }
+            
+            const response = await this.queryObject(queryObj)
+
+            return [null, response ];
+        } catch (error) {
+            return [error];
+        }
+    }
+
+    getByPhone = async (fromNumber = null, toNumber = null, startDate = null, endDate = null, size = null, page = null) => {
+
+        try {
+            
+            const index = fromNumber ? 2 : 3;
+
+            const pageSize = size ? size : 50
+            let limit = Number(pageSize);
+
+            let lastEvaluatedKey = undefined
+            if(page){
+                lastEvaluatedKey = JSON.parse(atob(page))
+            }
+
+            let attributes = {
+                ":gsipk": { S: (fromNumber ? this.getGSI2PK() : this.getGSI3PK()) },
+                ...(fromNumber ? { ":from": { S: fromNumber } } : { }),
+                ...(!fromNumber && toNumber ? { ":to": { S: toNumber } } : { })
+            };
+
+            let queryObj = {
+                "TableName": process.env.DB_TABLE_NAME,
+                "IndexName": `GSI${index}`,
+                "KeyConditionExpression": `GSI${index}PK = :gsipk AND begins_with(GSI${index}SK, :${(fromNumber ? 'from' : 'to')})`,
+                "ExpressionAttributeValues": attributes,
+                "ScanIndexForward": false,
+                "ExclusiveStartKey": lastEvaluatedKey ? lastEvaluatedKey : undefined,
+                "Limit": limit, // Limit number of items scanned
+            }
+
+            if(startDate && endDate){
+                attributes[":startdate"] = { S: moment(`${startDate} 00:00:00`).format()},
+                attributes[":enddate"] = { S: moment(`${endDate} 23:59:00`).format()}
+                queryObj["FilterExpression"] = `GSI1SK BETWEEN :startdate AND :enddate`
+            }
+
+            const response = await this.queryObject(queryObj)
+            
+            return [null, response ];
+        } catch (error) {
+            return [error];
+        }
+    }
+    
+    getById = async (id,startDate = null, endDate = null, size = null, page = null) => {
+        try {
+            
+            const index = 4;
+            let searches = [];
+
+            const pageSize = size ? size : 50
+            let limit = Number(pageSize);
+
+            let attributes = {
+                ":gsipk": { S: this.getGSI4PK() },
+                ":id": { S: id }
+            };
+        
+            let lastEvaluatedKey = undefined
+            if(page){
+                lastEvaluatedKey = JSON.parse(atob(page))
+            }
+            
+            let queryObj = {
+                "TableName": process.env.DB_TABLE_NAME,
+                "IndexName": `GSI${index}`,
+                "KeyConditionExpression": `GSI${index}PK = :gsipk AND begins_with(GSI${index}SK, :id)`,
+                "ExpressionAttributeValues": attributes,
+                "ScanIndexForward": false,
+                "ExclusiveStartKey": lastEvaluatedKey ? lastEvaluatedKey : undefined,
+                "Limit": limit, // Limit number of items scanned
+            }
+            
+            if(startDate && endDate){
+                attributes[":startdate"] = { S: moment(`${startDate} 00:00:00`).format()},
+                attributes[":enddate"] = { S: moment(`${endDate} 23:59:00`).format()},
+                queryObj["FilterExpression"] = `GSI1SK BETWEEN :startdate AND :enddate`
+            }
+            
+            searches = await this.queryObject(queryObj)
+
+            return [null, searches ];
+        } catch (error) {
+            return [error];
+        }
+    }
+
+    queryObject = async (queryObj) => {
+        try {
+
+            const client = getClient();
+            const result = await client
+                    .query(queryObj)
+                    .promise();
+
+            const response = new IResponse();
+            response.count = result.Count;
+            response.scannedCount = result.ScannedCount;
+            response.data = result.Items.map((item) => unmarshall(item))
+
+            if(result.LastEvaluatedKey !== undefined){
+                response.lastEvaluatedKey = btoa(JSON.stringify(result.LastEvaluatedKey));
+            }
+
+            return response
+        } catch (error) {
+            return [error];
+        }   
+    }
+
+    setPK() {
+        return `${CALL_LOG_PK_PREFIX}#${util.extractType(this.type)}#${this.executionId}`;
+    }
+
+    setSK() {
+        return `${SEARCH_SK_PREFIX}#${this.executionId}`;
+    }
+
+    getGSI1PK() {
+        return `${SEARCH_DATE_PK_PREFIX}#${util.extractType(this.type)}`;
+    }
+
+    getGSI1SK() {
+        return this.time;
+    }
+
+    getGSI2PK() {
+        return `${SEARCH_FROM_PK_PREFIX}#${util.extractType(this.type)}`;
+    }
+
+    getGSI2SK() {
+        return this.fromNumber;
+    }
+
+    getGSI3PK() {
+        return `${SEARCH_TO_PK_PREFIX}#${util.extractType(this.type)}`;
+    }
+
+    getGSI3SK() {
+        return this.toNumber;
+    }
+
+    getGSI4PK() {
+        return `${SEARCH_ID_PK_PREFIX}#${util.extractType(this.type)}`;
+    }
+
+    getGSI4SK() {
+        return this.id;
+    }
+}
+
+exports.CallLogSearch = CallLogSearch;
