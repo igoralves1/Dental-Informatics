@@ -1,0 +1,158 @@
+{
+    "TableName": "twilio-video-logs-dev",
+    "AttributeDefinitions": [
+        {
+            "AttributeName": "sid",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "date_time",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "eventStatus",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "prospectName",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "agentName",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "GSI1PK",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "GSI1SK",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "GSI2PK",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "GSI2SK",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "GSI3PK",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "GSI3SK",
+            "AttributeType": "S"
+        }
+    ],
+    "KeySchema": [
+        {
+            "AttributeName": "sid",
+            "KeyType": "HASH"
+        },
+        {
+            "AttributeName": "date_time",
+            "KeyType": "RANGE"
+        }
+    ],
+    "BillingMode": "PAY_PER_REQUEST",
+    "GlobalSecondaryIndexes": [
+        {
+            "IndexName": "sid-eventStatus-index",
+            "KeySchema": [
+                {
+                    "AttributeName": "sid",
+                    "KeyType": "HASH"
+                },
+                {
+                    "AttributeName": "eventStatus",
+                    "KeyType": "RANGE"
+                }
+            ],
+            "Projection": {
+                "ProjectionType": "ALL"
+            }
+        },
+        {
+            "IndexName": "agentname-eventStatus-index",
+            "KeySchema": [
+                {
+                    "AttributeName": "agentName",
+                    "KeyType": "HASH"
+                },
+                {
+                    "AttributeName": "eventStatus",
+                    "KeyType": "RANGE"
+                }
+            ],
+            "Projection": {
+                "ProjectionType": "ALL"
+            }
+        },
+        {
+            "IndexName": "prospectname-eventStatus-index",
+            "KeySchema": [
+                {
+                    "AttributeName": "prospectName",
+                    "KeyType": "HASH"
+                },
+                {
+                    "AttributeName": "eventStatus",
+                    "KeyType": "RANGE"
+                }
+            ],
+            "Projection": {
+                "ProjectionType": "ALL"
+            }
+        },
+        {
+            "IndexName": "GSI1",
+            "KeySchema": [
+                {
+                    "AttributeName": "GSI1PK",
+                    "KeyType": "HASH"
+                },
+                {
+                    "AttributeName": "GSI1SK",
+                    "KeyType": "RANGE"
+                }
+            ],
+            "Projection": {
+                "ProjectionType": "ALL"
+            }
+        },
+        {
+            "IndexName": "GSI2",
+            "KeySchema": [
+                {
+                    "AttributeName": "GSI2PK",
+                    "KeyType": "HASH"
+                },
+                {
+                    "AttributeName": "GSI2SK",
+                    "KeyType": "RANGE"
+                }
+            ],
+            "Projection": {
+                "ProjectionType": "ALL"
+            }
+        },
+        {
+            "IndexName": "GSI3",
+            "KeySchema": [
+                {
+                    "AttributeName": "GSI3PK",
+                    "KeyType": "HASH"
+                },
+                {
+                    "AttributeName": "GSI3SK",
+                    "KeyType": "RANGE"
+                }
+            ],
+            "Projection": {
+                "ProjectionType": "ALL"
+            }
+        }
+    ]
+}
