@@ -11,3 +11,8 @@ Models](https://mededu.jmir.org/2024/1/PDF)
 - [Artificial Intelligence in Dental Education: Opportunities and Challenges of Large Language Models and Multimodal Foundation Models](https://mededu.jmir.org/2024/1/e52346)
 
 - [Artificial Intelligence in Dental Education: Opportunities and Challenges of Large Language Models and Multimodal Foundation Models](https://pmc.ncbi.nlm.nih.gov/articles/PMC11451510/)
+
+
+- [Dr. Chukwuebuka Ogwo awarded prestigious Harold Amos Medical Faculty Development Program Award](https://www.hsdm.harvard.edu/news/2024/12/dr-chukwuebuka-ogwo-awarded-prestigious-harold-amos-medical-faculty-development)
+  - [Dr. Chukwuebuka Ogwo](https://www.hsdm.harvard.edu/people/chukwuebuka-ogwo)
+  - Chukwuebuka_Ogwo@hsdm.harvard.edu
