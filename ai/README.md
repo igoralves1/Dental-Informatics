@@ -3,4 +3,8 @@
 - [Content tagged with Artificial Intelligence](https://www.hsdm.harvard.edu/news-and-events/artificial-intelligence#:~:text=Artificial%20Intelligence%20(AI)%20and%20machine,and%20virtually%20expand%20their...)
 
 
+#### [JMIR Medical Education - 2024 Vol. 10 (2024)](https://mededu.jmir.org/2024)
+- [Artificial Intelligence in Dental Education: Opportunities and
+Challenges of Large Language Models and Multimodal Foundation
+Models](https://mededu.jmir.org/2024/1/PDF)
 
