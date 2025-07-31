@@ -8,3 +8,6 @@
 Challenges of Large Language Models and Multimodal Foundation
 Models](https://mededu.jmir.org/2024/1/PDF)
 
+- [Artificial Intelligence in Dental Education: Opportunities and Challenges of Large Language Models and Multimodal Foundation Models](https://mededu.jmir.org/2024/1/e52346)
+
+- [Artificial Intelligence in Dental Education: Opportunities and Challenges of Large Language Models and Multimodal Foundation Models](https://pmc.ncbi.nlm.nih.gov/articles/PMC11451510/)
